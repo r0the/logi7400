@@ -878,6 +878,90 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="1C"/>
     </comp>
   </circuit>
+  <circuit name="74x21: 2x4in AND gate">
+    <a name="circuit" val="74x21: 2x4in AND gate"/>
+    <a name="clabel" val="74x21"/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(90,20)" to="(90,60)"/>
+    <wire from="(90,260)" to="(90,300)"/>
+    <wire from="(60,180)" to="(90,180)"/>
+    <wire from="(140,240)" to="(160,240)"/>
+    <wire from="(60,20)" to="(90,20)"/>
+    <wire from="(80,230)" to="(110,230)"/>
+    <wire from="(60,260)" to="(80,260)"/>
+    <wire from="(60,100)" to="(80,100)"/>
+    <wire from="(90,60)" to="(110,60)"/>
+    <wire from="(80,90)" to="(110,90)"/>
+    <wire from="(60,300)" to="(90,300)"/>
+    <wire from="(80,250)" to="(80,260)"/>
+    <wire from="(90,260)" to="(110,260)"/>
+    <wire from="(60,140)" to="(90,140)"/>
+    <wire from="(60,220)" to="(80,220)"/>
+    <wire from="(140,80)" to="(160,80)"/>
+    <wire from="(80,60)" to="(80,70)"/>
+    <wire from="(60,60)" to="(80,60)"/>
+    <wire from="(80,70)" to="(110,70)"/>
+    <wire from="(90,100)" to="(90,140)"/>
+    <wire from="(80,220)" to="(80,230)"/>
+    <wire from="(90,180)" to="(90,220)"/>
+    <wire from="(80,250)" to="(110,250)"/>
+    <wire from="(80,90)" to="(80,100)"/>
+    <wire from="(90,100)" to="(110,100)"/>
+    <wire from="(90,220)" to="(110,220)"/>
+    <comp lib="0" loc="(60,180)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="2A"/>
+    </comp>
+    <comp lib="0" loc="(160,80)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="1Y"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="1" loc="(140,80)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(60,60)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="1B"/>
+    </comp>
+    <comp lib="1" loc="(140,240)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(60,300)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="2D"/>
+    </comp>
+    <comp lib="0" loc="(60,100)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="1C"/>
+    </comp>
+    <comp lib="0" loc="(60,20)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="1A"/>
+    </comp>
+    <comp lib="0" loc="(60,140)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="1D"/>
+    </comp>
+    <comp lib="0" loc="(60,220)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="2B"/>
+    </comp>
+    <comp lib="0" loc="(60,260)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="2C"/>
+    </comp>
+    <comp lib="0" loc="(160,240)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="2Y"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+  </circuit>
   <circuit name="74x147: 10-&gt;4 line encoder">
     <a name="circuit" val="74x147: 10-&gt;4 line encoder"/>
     <a name="clabel" val="74x147"/>
@@ -2537,52 +2621,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(500,750)" name="NOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-    </comp>
-  </circuit>
-  <circuit name="74x299: 8-bit bidirectional universal shift/storage register with three-state outputs">
-    <a name="circuit" val="74x299: 8-bit bidirectional universal shift/storage register with three-state outputs"/>
-    <a name="clabel" val=""/>
-    <a name="clabelup" val="east"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(190,170)" to="(210,170)"/>
-    <wire from="(180,180)" to="(210,180)"/>
-    <wire from="(180,200)" to="(210,200)"/>
-    <wire from="(180,170)" to="(180,180)"/>
-    <wire from="(190,210)" to="(210,210)"/>
-    <wire from="(160,130)" to="(190,130)"/>
-    <wire from="(180,200)" to="(180,210)"/>
-    <wire from="(190,210)" to="(190,250)"/>
-    <wire from="(160,170)" to="(180,170)"/>
-    <wire from="(160,250)" to="(190,250)"/>
-    <wire from="(160,210)" to="(180,210)"/>
-    <wire from="(190,130)" to="(190,170)"/>
-    <comp lib="0" loc="(70,80)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="S1"/>
-    </comp>
-    <comp lib="1" loc="(160,250)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(70,40)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="S0"/>
-    </comp>
-    <comp lib="1" loc="(160,210)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(160,170)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(240,190)" name="OR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(160,130)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
     </comp>
   </circuit>
   <circuit name="74x373: octal transparent latch with three-state outputs">
