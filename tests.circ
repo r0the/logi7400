@@ -31,7 +31,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </tool>
   </lib>
   <lib desc="file#74xx.circ" name="7"/>
-  <main name="Test_744511"/>
+  <main name="Tests"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
     <a name="simlimit" val="1000"/>
@@ -39,8 +39,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   </options>
   <mappings>
     <tool lib="6" map="Button2" name="Menu Tool"/>
-    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
     <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
   </mappings>
   <toolbar>
     <tool lib="6" name="Poke Tool"/>
@@ -64,6 +64,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <tool lib="1" name="AND Gate"/>
     <tool lib="1" name="OR Gate"/>
   </toolbar>
+  <circuit name="Tests">
+    <a name="circuit" val="Tests"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+  </circuit>
   <circuit name="Test_7400">
     <a name="circuit" val="Test_7400"/>
     <a name="clabel" val=""/>
@@ -83,8 +89,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(480,130)" to="(500,130)"/>
     <wire from="(220,110)" to="(240,110)"/>
     <wire from="(450,90)" to="(480,90)"/>
-    <wire from="(370,120)" to="(400,120)"/>
     <wire from="(170,140)" to="(190,140)"/>
+    <wire from="(370,120)" to="(400,120)"/>
     <wire from="(80,50)" to="(100,50)"/>
     <wire from="(250,40)" to="(290,40)"/>
     <wire from="(60,70)" to="(60,90)"/>
@@ -118,13 +124,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(150,40)" to="(170,40)"/>
     <wire from="(170,100)" to="(190,100)"/>
     <wire from="(160,30)" to="(160,120)"/>
-    <wire from="(220,120)" to="(350,120)"/>
     <wire from="(180,110)" to="(180,180)"/>
-    <wire from="(170,40)" to="(230,40)"/>
+    <wire from="(220,120)" to="(350,120)"/>
     <wire from="(350,40)" to="(370,40)"/>
+    <wire from="(170,40)" to="(230,40)"/>
     <wire from="(220,100)" to="(230,100)"/>
-    <wire from="(350,140)" to="(400,140)"/>
     <wire from="(450,130)" to="(470,130)"/>
+    <wire from="(350,140)" to="(400,140)"/>
     <wire from="(370,40)" to="(370,80)"/>
     <wire from="(370,120)" to="(370,160)"/>
     <wire from="(180,30)" to="(240,30)"/>
@@ -139,39 +145,39 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(450,90)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(80,50)" name="Counter">
-      <a name="width" val="2"/>
-      <a name="max" val="0x3"/>
-    </comp>
     <comp lib="1" loc="(450,170)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(100,50)" name="Splitter"/>
-    <comp lib="5" loc="(550,150)" name="LED">
-      <a name="color" val="#00f02b"/>
-      <a name="offcolor" val="#ff0008"/>
+    <comp lib="0" loc="(30,50)" name="Power"/>
+    <comp lib="4" loc="(80,50)" name="Counter">
+      <a name="width" val="2"/>
+      <a name="max" val="0x3"/>
     </comp>
-    <comp lib="0" loc="(60,90)" name="Clock">
-      <a name="facing" val="north"/>
+    <comp lib="1" loc="(450,130)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(450,90)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(530,150)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="4"/>
     </comp>
-    <comp lib="0" loc="(30,50)" name="Power"/>
+    <comp lib="0" loc="(60,90)" name="Clock">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="1" loc="(350,40)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="0" loc="(100,50)" name="Splitter"/>
     <comp lib="7" loc="(220,90)" name="7400"/>
-    <comp lib="1" loc="(450,130)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="5" loc="(550,150)" name="LED">
+      <a name="color" val="#00f02b"/>
+      <a name="offcolor" val="#ff0008"/>
     </comp>
   </circuit>
   <circuit name="Test_7402">
@@ -194,14 +200,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(80,50)" to="(100,50)"/>
     <wire from="(250,40)" to="(290,40)"/>
     <wire from="(350,130)" to="(350,140)"/>
-    <wire from="(170,30)" to="(170,100)"/>
     <wire from="(60,70)" to="(60,90)"/>
+    <wire from="(170,30)" to="(170,100)"/>
     <wire from="(290,50)" to="(310,50)"/>
     <wire from="(470,160)" to="(500,160)"/>
-    <wire from="(220,110)" to="(230,110)"/>
     <wire from="(370,160)" to="(370,200)"/>
-    <wire from="(220,150)" to="(260,150)"/>
+    <wire from="(220,110)" to="(230,110)"/>
     <wire from="(230,40)" to="(230,110)"/>
+    <wire from="(220,150)" to="(260,150)"/>
     <wire from="(30,60)" to="(50,60)"/>
     <wire from="(370,200)" to="(400,200)"/>
     <wire from="(230,40)" to="(250,40)"/>
@@ -227,14 +233,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(170,100)" to="(190,100)"/>
     <wire from="(220,140)" to="(250,140)"/>
     <wire from="(350,40)" to="(370,40)"/>
-    <wire from="(220,130)" to="(350,130)"/>
     <wire from="(250,40)" to="(250,140)"/>
-    <wire from="(450,130)" to="(470,130)"/>
+    <wire from="(220,130)" to="(350,130)"/>
     <wire from="(350,140)" to="(400,140)"/>
+    <wire from="(450,130)" to="(470,130)"/>
     <wire from="(370,40)" to="(370,80)"/>
     <wire from="(370,120)" to="(370,160)"/>
-    <wire from="(150,30)" to="(170,30)"/>
     <wire from="(170,120)" to="(170,220)"/>
+    <wire from="(150,30)" to="(170,30)"/>
     <wire from="(160,110)" to="(190,110)"/>
     <wire from="(150,130)" to="(190,130)"/>
     <wire from="(180,90)" to="(180,180)"/>
@@ -243,19 +249,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,100)" to="(400,100)"/>
     <wire from="(470,130)" to="(470,140)"/>
     <wire from="(530,150)" to="(550,150)"/>
-    <comp lib="1" loc="(450,170)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+    <comp lib="0" loc="(60,90)" name="Clock">
+      <a name="facing" val="north"/>
     </comp>
-    <comp lib="0" loc="(100,50)" name="Splitter"/>
+    <comp lib="5" loc="(550,150)" name="LED">
+      <a name="color" val="#00f02b"/>
+      <a name="offcolor" val="#ff0008"/>
+    </comp>
     <comp lib="1" loc="(350,40)" name="NOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(60,90)" name="Clock">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(450,90)" name="XNOR Gate">
+    <comp lib="1" loc="(450,130)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -263,11 +268,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="5" loc="(550,150)" name="LED">
-      <a name="color" val="#00f02b"/>
-      <a name="offcolor" val="#ff0008"/>
+    <comp lib="1" loc="(450,170)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(450,130)" name="XNOR Gate">
+    <comp lib="1" loc="(450,90)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -275,12 +280,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="2"/>
       <a name="max" val="0x3"/>
     </comp>
-    <comp lib="0" loc="(30,50)" name="Power"/>
-    <comp lib="7" loc="(220,90)" name="7402"/>
+    <comp lib="0" loc="(100,50)" name="Splitter"/>
     <comp lib="1" loc="(530,150)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="4"/>
     </comp>
+    <comp lib="7" loc="(220,90)" name="7402"/>
+    <comp lib="0" loc="(30,50)" name="Power"/>
   </circuit>
   <circuit name="Test_7404">
     <a name="circuit" val="Test_7404"/>
@@ -299,13 +305,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(340,190)" to="(340,230)"/>
     <wire from="(420,160)" to="(460,160)"/>
     <wire from="(140,40)" to="(150,40)"/>
-    <wire from="(480,210)" to="(500,210)"/>
-    <wire from="(140,90)" to="(160,90)"/>
     <wire from="(470,200)" to="(470,240)"/>
-    <wire from="(220,170)" to="(370,170)"/>
+    <wire from="(140,90)" to="(160,90)"/>
+    <wire from="(480,210)" to="(500,210)"/>
     <wire from="(140,250)" to="(370,250)"/>
-    <wire from="(70,40)" to="(130,40)"/>
+    <wire from="(220,170)" to="(370,170)"/>
     <wire from="(340,230)" to="(340,270)"/>
+    <wire from="(70,40)" to="(130,40)"/>
     <wire from="(260,130)" to="(370,130)"/>
     <wire from="(210,40)" to="(220,40)"/>
     <wire from="(480,210)" to="(480,280)"/>
@@ -344,40 +350,34 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(20,50)" to="(40,50)"/>
     <wire from="(420,240)" to="(470,240)"/>
     <wire from="(190,90)" to="(370,90)"/>
-    <wire from="(140,40)" to="(140,90)"/>
     <wire from="(340,110)" to="(340,150)"/>
+    <wire from="(140,40)" to="(140,90)"/>
     <wire from="(130,120)" to="(160,120)"/>
     <wire from="(530,180)" to="(550,180)"/>
     <wire from="(150,80)" to="(160,80)"/>
     <wire from="(300,40)" to="(340,40)"/>
     <wire from="(460,190)" to="(500,190)"/>
     <wire from="(470,200)" to="(500,200)"/>
-    <wire from="(150,70)" to="(160,70)"/>
-    <wire from="(340,150)" to="(370,150)"/>
     <wire from="(420,280)" to="(480,280)"/>
+    <wire from="(340,150)" to="(370,150)"/>
+    <wire from="(150,70)" to="(160,70)"/>
     <wire from="(480,150)" to="(500,150)"/>
     <wire from="(220,40)" to="(270,40)"/>
-    <comp lib="0" loc="(50,80)" name="Clock">
-      <a name="facing" val="north"/>
-    </comp>
     <comp lib="5" loc="(550,180)" name="LED">
       <a name="color" val="#00f02b"/>
       <a name="offcolor" val="#ff0008"/>
     </comp>
-    <comp lib="1" loc="(420,120)" name="XNOR Gate">
+    <comp lib="0" loc="(20,40)" name="Power"/>
+    <comp lib="1" loc="(530,180)" name="AND Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(420,240)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+      <a name="inputs" val="6"/>
     </comp>
     <comp lib="1" loc="(420,160)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
     <comp lib="7" loc="(190,70)" name="7404"/>
-    <comp lib="1" loc="(420,80)" name="XNOR Gate">
+    <comp lib="1" loc="(420,120)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -385,6 +385,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="1" loc="(300,40)" name="NOT Gate"/>
     <comp lib="1" loc="(420,200)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -393,12 +394,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="width" val="1"/>
       <a name="max" val="0x1"/>
     </comp>
-    <comp lib="1" loc="(300,40)" name="NOT Gate"/>
-    <comp lib="1" loc="(530,180)" name="AND Gate">
+    <comp lib="1" loc="(420,240)" name="XNOR Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="6"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(20,40)" name="Power"/>
+    <comp lib="0" loc="(50,80)" name="Clock">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(420,80)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
   </circuit>
   <circuit name="Test_7408">
     <a name="circuit" val="Test_7408"/>
@@ -419,8 +425,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(480,130)" to="(500,130)"/>
     <wire from="(220,110)" to="(240,110)"/>
     <wire from="(450,90)" to="(480,90)"/>
-    <wire from="(370,120)" to="(400,120)"/>
     <wire from="(170,140)" to="(190,140)"/>
+    <wire from="(370,120)" to="(400,120)"/>
     <wire from="(80,50)" to="(100,50)"/>
     <wire from="(250,40)" to="(290,40)"/>
     <wire from="(60,70)" to="(60,90)"/>
@@ -455,12 +461,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(150,40)" to="(170,40)"/>
     <wire from="(170,100)" to="(190,100)"/>
     <wire from="(160,30)" to="(160,120)"/>
-    <wire from="(220,120)" to="(350,120)"/>
     <wire from="(180,110)" to="(180,180)"/>
+    <wire from="(220,120)" to="(350,120)"/>
     <wire from="(170,40)" to="(230,40)"/>
     <wire from="(220,100)" to="(230,100)"/>
-    <wire from="(350,140)" to="(400,140)"/>
     <wire from="(450,130)" to="(470,130)"/>
+    <wire from="(350,140)" to="(400,140)"/>
     <wire from="(370,40)" to="(370,80)"/>
     <wire from="(370,120)" to="(370,160)"/>
     <wire from="(180,30)" to="(240,30)"/>
@@ -471,37 +477,36 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(470,130)" to="(470,140)"/>
     <wire from="(350,140)" to="(350,150)"/>
     <wire from="(530,150)" to="(550,150)"/>
-    <comp lib="7" loc="(220,90)" name="7408"/>
-    <comp lib="1" loc="(450,170)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="0" loc="(60,90)" name="Clock">
       <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(530,150)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(450,130)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(80,50)" name="Counter">
-      <a name="width" val="2"/>
-      <a name="max" val="0x3"/>
-    </comp>
-    <comp lib="1" loc="(450,90)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(450,210)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(30,50)" name="Power"/>
-    <comp lib="0" loc="(100,50)" name="Splitter"/>
+    <comp lib="1" loc="(450,170)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(530,150)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="4" loc="(80,50)" name="Counter">
+      <a name="width" val="2"/>
+      <a name="max" val="0x3"/>
+    </comp>
     <comp lib="1" loc="(340,40)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(30,50)" name="Power"/>
+    <comp lib="1" loc="(450,130)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="7" loc="(220,90)" name="7408"/>
+    <comp lib="1" loc="(450,90)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -509,6 +514,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="color" val="#00f02b"/>
       <a name="offcolor" val="#ff0008"/>
     </comp>
+    <comp lib="0" loc="(100,50)" name="Splitter"/>
   </circuit>
   <circuit name="Test_7410">
     <a name="circuit" val="Test_7410"/>
@@ -531,8 +537,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(350,100)" to="(350,110)"/>
     <wire from="(470,140)" to="(490,140)"/>
     <wire from="(80,50)" to="(100,50)"/>
-    <wire from="(170,30)" to="(170,100)"/>
     <wire from="(60,70)" to="(60,90)"/>
+    <wire from="(170,30)" to="(170,100)"/>
     <wire from="(520,130)" to="(540,130)"/>
     <wire from="(470,90)" to="(470,120)"/>
     <wire from="(450,130)" to="(490,130)"/>
@@ -563,22 +569,17 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,100)" to="(230,100)"/>
     <wire from="(350,140)" to="(400,140)"/>
     <wire from="(370,120)" to="(370,160)"/>
-    <wire from="(240,40)" to="(310,40)"/>
     <wire from="(150,30)" to="(170,30)"/>
-    <wire from="(160,110)" to="(190,110)"/>
+    <wire from="(240,40)" to="(310,40)"/>
     <wire from="(450,90)" to="(470,90)"/>
+    <wire from="(160,110)" to="(190,110)"/>
     <wire from="(470,120)" to="(490,120)"/>
     <wire from="(120,20)" to="(160,20)"/>
     <wire from="(180,180)" to="(400,180)"/>
     <wire from="(150,30)" to="(150,120)"/>
     <wire from="(140,40)" to="(230,40)"/>
     <wire from="(350,140)" to="(350,150)"/>
-    <comp lib="7" loc="(220,90)" name="7410"/>
-    <comp lib="1" loc="(350,30)" name="NAND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(450,130)" name="XNOR Gate">
+    <comp lib="1" loc="(450,170)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -586,30 +587,35 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="color" val="#00f02b"/>
       <a name="offcolor" val="#ff0008"/>
     </comp>
-    <comp lib="1" loc="(450,170)" name="XNOR Gate">
+    <comp lib="1" loc="(450,90)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(100,50)" name="Splitter">
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
     </comp>
     <comp lib="4" loc="(80,50)" name="Counter">
       <a name="width" val="3"/>
       <a name="max" val="0x7"/>
     </comp>
+    <comp lib="1" loc="(350,30)" name="NAND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
     <comp lib="0" loc="(60,90)" name="Clock">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="1" loc="(450,90)" name="XNOR Gate">
+    <comp lib="1" loc="(450,130)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(30,50)" name="Power"/>
+    <comp lib="7" loc="(220,90)" name="7410"/>
+    <comp lib="0" loc="(100,50)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
     <comp lib="1" loc="(520,130)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
+    <comp lib="0" loc="(30,50)" name="Power"/>
   </circuit>
   <circuit name="Test_7411">
     <a name="circuit" val="Test_7411"/>
@@ -633,8 +639,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(350,100)" to="(350,110)"/>
     <wire from="(470,140)" to="(490,140)"/>
     <wire from="(80,50)" to="(100,50)"/>
-    <wire from="(170,30)" to="(170,100)"/>
     <wire from="(60,70)" to="(60,90)"/>
+    <wire from="(170,30)" to="(170,100)"/>
     <wire from="(520,130)" to="(540,130)"/>
     <wire from="(470,90)" to="(470,120)"/>
     <wire from="(450,130)" to="(490,130)"/>
@@ -664,53 +670,53 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,100)" to="(230,100)"/>
     <wire from="(350,140)" to="(400,140)"/>
     <wire from="(370,120)" to="(370,160)"/>
-    <wire from="(150,30)" to="(170,30)"/>
     <wire from="(240,40)" to="(310,40)"/>
-    <wire from="(450,90)" to="(470,90)"/>
+    <wire from="(150,30)" to="(170,30)"/>
     <wire from="(160,110)" to="(190,110)"/>
+    <wire from="(450,90)" to="(470,90)"/>
     <wire from="(470,120)" to="(490,120)"/>
     <wire from="(120,20)" to="(160,20)"/>
     <wire from="(180,180)" to="(400,180)"/>
     <wire from="(150,30)" to="(150,120)"/>
     <wire from="(140,40)" to="(230,40)"/>
     <wire from="(350,140)" to="(350,150)"/>
-    <comp lib="5" loc="(540,130)" name="LED">
-      <a name="color" val="#00f02b"/>
-      <a name="offcolor" val="#ff0008"/>
+    <comp lib="1" loc="(520,130)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(60,90)" name="Clock">
+      <a name="facing" val="north"/>
     </comp>
     <comp lib="1" loc="(450,90)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(450,170)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(80,50)" name="Counter">
-      <a name="width" val="3"/>
-      <a name="max" val="0x7"/>
-    </comp>
-    <comp lib="0" loc="(60,90)" name="Clock">
-      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(100,50)" name="Splitter">
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
     </comp>
     <comp lib="0" loc="(30,50)" name="Power"/>
+    <comp lib="7" loc="(220,90)" name="7411"/>
     <comp lib="1" loc="(340,30)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="4" loc="(80,50)" name="Counter">
+      <a name="width" val="3"/>
+      <a name="max" val="0x7"/>
+    </comp>
+    <comp lib="1" loc="(450,170)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="1" loc="(450,130)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(520,130)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
+    <comp lib="5" loc="(540,130)" name="LED">
+      <a name="color" val="#00f02b"/>
+      <a name="offcolor" val="#ff0008"/>
     </comp>
-    <comp lib="7" loc="(220,90)" name="7411"/>
   </circuit>
   <circuit name="Test_7420">
     <a name="circuit" val="Test_7420"/>
@@ -732,15 +738,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(180,140)" to="(180,170)"/>
     <wire from="(370,110)" to="(400,110)"/>
     <wire from="(220,110)" to="(240,110)"/>
-    <wire from="(370,150)" to="(400,150)"/>
     <wire from="(470,150)" to="(470,160)"/>
+    <wire from="(370,150)" to="(400,150)"/>
     <wire from="(470,120)" to="(470,130)"/>
     <wire from="(170,30)" to="(170,100)"/>
-    <wire from="(290,50)" to="(310,50)"/>
     <wire from="(350,130)" to="(400,130)"/>
+    <wire from="(290,50)" to="(310,50)"/>
     <wire from="(350,130)" to="(350,150)"/>
-    <wire from="(470,130)" to="(490,130)"/>
     <wire from="(280,50)" to="(280,60)"/>
+    <wire from="(470,130)" to="(490,130)"/>
     <wire from="(240,40)" to="(290,40)"/>
     <wire from="(120,20)" to="(180,20)"/>
     <wire from="(260,20)" to="(310,20)"/>
@@ -767,11 +773,35 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,100)" to="(230,100)"/>
     <wire from="(120,50)" to="(150,50)"/>
     <wire from="(450,160)" to="(470,160)"/>
-    <wire from="(150,130)" to="(190,130)"/>
     <wire from="(150,50)" to="(230,50)"/>
+    <wire from="(150,130)" to="(190,130)"/>
     <wire from="(280,60)" to="(310,60)"/>
     <wire from="(80,60)" to="(100,60)"/>
+    <comp lib="1" loc="(450,160)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="7" loc="(220,90)" name="7420"/>
+    <comp lib="1" loc="(520,140)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="5" loc="(540,140)" name="LED">
+      <a name="color" val="#00f02b"/>
+      <a name="offcolor" val="#ff0008"/>
+    </comp>
+    <comp lib="0" loc="(30,60)" name="Power"/>
+    <comp lib="0" loc="(100,60)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="1" loc="(450,120)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(60,100)" name="Clock">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="4" loc="(80,60)" name="Counter">
       <a name="width" val="4"/>
       <a name="max" val="0xf"/>
@@ -779,30 +809,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="1" loc="(350,40)" name="NAND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(30,60)" name="Power"/>
-    <comp lib="1" loc="(450,160)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="5" loc="(540,140)" name="LED">
-      <a name="color" val="#00f02b"/>
-      <a name="offcolor" val="#ff0008"/>
-    </comp>
-    <comp lib="1" loc="(520,140)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="0" loc="(60,100)" name="Clock">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(450,120)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(100,60)" name="Splitter">
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
     </comp>
   </circuit>
   <circuit name="Test_7421">
@@ -825,15 +831,15 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(180,140)" to="(180,170)"/>
     <wire from="(370,110)" to="(400,110)"/>
     <wire from="(220,110)" to="(240,110)"/>
-    <wire from="(370,150)" to="(400,150)"/>
     <wire from="(470,150)" to="(470,160)"/>
+    <wire from="(370,150)" to="(400,150)"/>
     <wire from="(470,120)" to="(470,130)"/>
     <wire from="(170,30)" to="(170,100)"/>
-    <wire from="(290,50)" to="(310,50)"/>
     <wire from="(350,130)" to="(400,130)"/>
+    <wire from="(290,50)" to="(310,50)"/>
     <wire from="(350,130)" to="(350,150)"/>
-    <wire from="(280,50)" to="(280,60)"/>
     <wire from="(470,130)" to="(490,130)"/>
+    <wire from="(280,50)" to="(280,60)"/>
     <wire from="(240,40)" to="(290,40)"/>
     <wire from="(120,20)" to="(180,20)"/>
     <wire from="(260,20)" to="(310,20)"/>
@@ -860,23 +866,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,100)" to="(230,100)"/>
     <wire from="(120,50)" to="(150,50)"/>
     <wire from="(450,160)" to="(470,160)"/>
-    <wire from="(150,130)" to="(190,130)"/>
     <wire from="(150,50)" to="(230,50)"/>
+    <wire from="(150,130)" to="(190,130)"/>
     <wire from="(280,60)" to="(310,60)"/>
     <wire from="(80,60)" to="(100,60)"/>
-    <comp lib="4" loc="(80,60)" name="Counter">
-      <a name="width" val="4"/>
-      <a name="max" val="0xf"/>
-    </comp>
-    <comp lib="7" loc="(220,90)" name="7421"/>
-    <comp lib="1" loc="(340,40)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(100,60)" name="Splitter">
-      <a name="fanout" val="4"/>
-      <a name="incoming" val="4"/>
-    </comp>
     <comp lib="1" loc="(520,140)" name="AND Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
@@ -884,18 +877,124 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(60,100)" name="Clock">
       <a name="facing" val="north"/>
     </comp>
-    <comp lib="1" loc="(450,160)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="1" loc="(450,120)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="4" loc="(80,60)" name="Counter">
+      <a name="width" val="4"/>
+      <a name="max" val="0xf"/>
+    </comp>
     <comp lib="0" loc="(30,60)" name="Power"/>
+    <comp lib="1" loc="(450,160)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(100,60)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="1" loc="(340,40)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="7" loc="(220,90)" name="7421"/>
     <comp lib="5" loc="(540,140)" name="LED">
       <a name="color" val="#00f02b"/>
       <a name="offcolor" val="#ff0008"/>
+    </comp>
+  </circuit>
+  <circuit name="Test_7425">
+    <a name="circuit" val="Test_7425"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(220,130)" to="(250,130)"/>
+    <wire from="(160,40)" to="(160,120)"/>
+    <wire from="(30,60)" to="(30,70)"/>
+    <wire from="(260,20)" to="(260,140)"/>
+    <wire from="(180,170)" to="(400,170)"/>
+    <wire from="(180,90)" to="(190,90)"/>
+    <wire from="(250,30)" to="(250,130)"/>
+    <wire from="(160,120)" to="(190,120)"/>
+    <wire from="(230,50)" to="(230,100)"/>
+    <wire from="(450,120)" to="(470,120)"/>
+    <wire from="(370,40)" to="(370,110)"/>
+    <wire from="(220,140)" to="(260,140)"/>
+    <wire from="(180,140)" to="(180,170)"/>
+    <wire from="(370,110)" to="(400,110)"/>
+    <wire from="(220,110)" to="(240,110)"/>
+    <wire from="(470,150)" to="(470,160)"/>
+    <wire from="(370,150)" to="(400,150)"/>
+    <wire from="(470,120)" to="(470,130)"/>
+    <wire from="(170,30)" to="(170,100)"/>
+    <wire from="(350,130)" to="(400,130)"/>
+    <wire from="(290,50)" to="(310,50)"/>
+    <wire from="(350,130)" to="(350,150)"/>
+    <wire from="(280,50)" to="(280,60)"/>
+    <wire from="(470,130)" to="(490,130)"/>
+    <wire from="(240,40)" to="(290,40)"/>
+    <wire from="(120,20)" to="(180,20)"/>
+    <wire from="(260,20)" to="(310,20)"/>
+    <wire from="(230,50)" to="(280,50)"/>
+    <wire from="(370,110)" to="(370,150)"/>
+    <wire from="(180,140)" to="(190,140)"/>
+    <wire from="(240,40)" to="(240,110)"/>
+    <wire from="(220,150)" to="(350,150)"/>
+    <wire from="(160,40)" to="(240,40)"/>
+    <wire from="(120,30)" to="(170,30)"/>
+    <wire from="(180,20)" to="(260,20)"/>
+    <wire from="(180,20)" to="(180,90)"/>
+    <wire from="(290,40)" to="(290,50)"/>
+    <wire from="(60,80)" to="(60,100)"/>
+    <wire from="(470,150)" to="(490,150)"/>
+    <wire from="(170,30)" to="(250,30)"/>
+    <wire from="(150,50)" to="(150,130)"/>
+    <wire from="(120,40)" to="(160,40)"/>
+    <wire from="(170,100)" to="(190,100)"/>
+    <wire from="(520,140)" to="(540,140)"/>
+    <wire from="(350,40)" to="(370,40)"/>
+    <wire from="(250,30)" to="(310,30)"/>
+    <wire from="(30,70)" to="(50,70)"/>
+    <wire from="(220,100)" to="(230,100)"/>
+    <wire from="(120,50)" to="(150,50)"/>
+    <wire from="(450,160)" to="(470,160)"/>
+    <wire from="(150,130)" to="(190,130)"/>
+    <wire from="(150,50)" to="(230,50)"/>
+    <wire from="(280,60)" to="(310,60)"/>
+    <wire from="(80,60)" to="(100,60)"/>
+    <comp lib="7" loc="(220,90)" name="7425"/>
+    <comp lib="5" loc="(540,140)" name="LED">
+      <a name="color" val="#00f02b"/>
+      <a name="offcolor" val="#ff0008"/>
+    </comp>
+    <comp lib="1" loc="(450,160)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(100,60)" name="Splitter">
+      <a name="fanout" val="4"/>
+      <a name="incoming" val="4"/>
+    </comp>
+    <comp lib="0" loc="(30,60)" name="Power"/>
+    <comp lib="1" loc="(450,120)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(520,140)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(350,40)" name="NOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="0" loc="(60,100)" name="Clock">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="4" loc="(80,60)" name="Counter">
+      <a name="width" val="4"/>
+      <a name="max" val="0xf"/>
     </comp>
   </circuit>
   <circuit name="Test_7427">
@@ -919,8 +1018,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(350,100)" to="(350,110)"/>
     <wire from="(470,140)" to="(490,140)"/>
     <wire from="(80,50)" to="(100,50)"/>
-    <wire from="(170,30)" to="(170,100)"/>
     <wire from="(60,70)" to="(60,90)"/>
+    <wire from="(170,30)" to="(170,100)"/>
     <wire from="(520,130)" to="(540,130)"/>
     <wire from="(470,90)" to="(470,120)"/>
     <wire from="(450,130)" to="(490,130)"/>
@@ -951,52 +1050,52 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,100)" to="(230,100)"/>
     <wire from="(350,140)" to="(400,140)"/>
     <wire from="(370,120)" to="(370,160)"/>
-    <wire from="(150,30)" to="(170,30)"/>
     <wire from="(240,40)" to="(310,40)"/>
-    <wire from="(450,90)" to="(470,90)"/>
+    <wire from="(150,30)" to="(170,30)"/>
     <wire from="(160,110)" to="(190,110)"/>
+    <wire from="(450,90)" to="(470,90)"/>
     <wire from="(470,120)" to="(490,120)"/>
     <wire from="(120,20)" to="(160,20)"/>
     <wire from="(180,180)" to="(400,180)"/>
     <wire from="(150,30)" to="(150,120)"/>
     <wire from="(140,40)" to="(230,40)"/>
     <wire from="(350,140)" to="(350,150)"/>
-    <comp lib="1" loc="(450,130)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(30,50)" name="Power"/>
     <comp lib="1" loc="(350,30)" name="NOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="7" loc="(220,90)" name="7427"/>
-    <comp lib="4" loc="(80,50)" name="Counter">
-      <a name="width" val="3"/>
-      <a name="max" val="0x7"/>
-    </comp>
-    <comp lib="1" loc="(520,130)" name="AND Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(450,170)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(100,50)" name="Splitter">
-      <a name="fanout" val="3"/>
-      <a name="incoming" val="3"/>
     </comp>
     <comp lib="5" loc="(540,130)" name="LED">
       <a name="color" val="#00f02b"/>
       <a name="offcolor" val="#ff0008"/>
     </comp>
-    <comp lib="0" loc="(60,90)" name="Clock">
-      <a name="facing" val="north"/>
+    <comp lib="0" loc="(30,50)" name="Power"/>
+    <comp lib="0" loc="(100,50)" name="Splitter">
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="1" loc="(450,130)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(450,170)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="4" loc="(80,50)" name="Counter">
+      <a name="width" val="3"/>
+      <a name="max" val="0x7"/>
     </comp>
     <comp lib="1" loc="(450,90)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="7" loc="(220,90)" name="7427"/>
+    <comp lib="0" loc="(60,90)" name="Clock">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(520,130)" name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
     </comp>
   </circuit>
   <circuit name="Test_7432">
@@ -1018,8 +1117,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(480,130)" to="(500,130)"/>
     <wire from="(220,110)" to="(240,110)"/>
     <wire from="(450,90)" to="(480,90)"/>
-    <wire from="(370,120)" to="(400,120)"/>
     <wire from="(170,140)" to="(190,140)"/>
+    <wire from="(370,120)" to="(400,120)"/>
     <wire from="(80,50)" to="(100,50)"/>
     <wire from="(250,40)" to="(290,40)"/>
     <wire from="(60,70)" to="(60,90)"/>
@@ -1054,12 +1153,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(150,40)" to="(170,40)"/>
     <wire from="(170,100)" to="(190,100)"/>
     <wire from="(160,30)" to="(160,120)"/>
-    <wire from="(180,110)" to="(180,180)"/>
     <wire from="(220,120)" to="(350,120)"/>
+    <wire from="(180,110)" to="(180,180)"/>
     <wire from="(170,40)" to="(230,40)"/>
     <wire from="(220,100)" to="(230,100)"/>
-    <wire from="(450,130)" to="(470,130)"/>
     <wire from="(350,140)" to="(400,140)"/>
+    <wire from="(450,130)" to="(470,130)"/>
     <wire from="(370,40)" to="(370,80)"/>
     <wire from="(370,120)" to="(370,160)"/>
     <wire from="(180,30)" to="(240,30)"/>
@@ -1070,23 +1169,29 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(470,130)" to="(470,140)"/>
     <wire from="(350,140)" to="(350,150)"/>
     <wire from="(530,150)" to="(550,150)"/>
-    <comp lib="5" loc="(550,150)" name="LED">
-      <a name="color" val="#00f02b"/>
-      <a name="offcolor" val="#ff0008"/>
-    </comp>
-    <comp lib="1" loc="(450,130)" name="XNOR Gate">
+    <comp lib="1" loc="(450,210)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="0" loc="(100,50)" name="Splitter"/>
     <comp lib="4" loc="(80,50)" name="Counter">
       <a name="width" val="2"/>
       <a name="max" val="0x3"/>
     </comp>
     <comp lib="7" loc="(220,90)" name="7432"/>
+    <comp lib="1" loc="(450,90)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="1" loc="(340,40)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="5" loc="(550,150)" name="LED">
+      <a name="color" val="#00f02b"/>
+      <a name="offcolor" val="#ff0008"/>
+    </comp>
+    <comp lib="0" loc="(30,50)" name="Power"/>
     <comp lib="0" loc="(60,90)" name="Clock">
       <a name="facing" val="north"/>
     </comp>
@@ -1094,13 +1199,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(450,90)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(30,50)" name="Power"/>
-    <comp lib="0" loc="(100,50)" name="Splitter"/>
-    <comp lib="1" loc="(450,210)" name="XNOR Gate">
+    <comp lib="1" loc="(450,130)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -1128,8 +1227,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(480,130)" to="(500,130)"/>
     <wire from="(220,110)" to="(240,110)"/>
     <wire from="(450,90)" to="(480,90)"/>
-    <wire from="(370,120)" to="(400,120)"/>
     <wire from="(170,140)" to="(190,140)"/>
+    <wire from="(370,120)" to="(400,120)"/>
     <wire from="(80,50)" to="(100,50)"/>
     <wire from="(250,40)" to="(290,40)"/>
     <wire from="(60,70)" to="(60,90)"/>
@@ -1163,13 +1262,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(150,40)" to="(170,40)"/>
     <wire from="(170,100)" to="(190,100)"/>
     <wire from="(160,30)" to="(160,120)"/>
-    <wire from="(220,120)" to="(350,120)"/>
     <wire from="(180,110)" to="(180,180)"/>
-    <wire from="(170,40)" to="(230,40)"/>
+    <wire from="(220,120)" to="(350,120)"/>
     <wire from="(350,40)" to="(370,40)"/>
+    <wire from="(170,40)" to="(230,40)"/>
     <wire from="(220,100)" to="(230,100)"/>
-    <wire from="(350,140)" to="(400,140)"/>
     <wire from="(450,130)" to="(470,130)"/>
+    <wire from="(350,140)" to="(400,140)"/>
     <wire from="(370,40)" to="(370,80)"/>
     <wire from="(370,120)" to="(370,160)"/>
     <wire from="(180,30)" to="(240,30)"/>
@@ -1180,36 +1279,36 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(470,130)" to="(470,140)"/>
     <wire from="(350,140)" to="(350,150)"/>
     <wire from="(530,150)" to="(550,150)"/>
-    <comp lib="1" loc="(530,150)" name="AND Gate">
+    <comp lib="1" loc="(350,40)" name="XOR Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="4"/>
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="5" loc="(550,150)" name="LED">
       <a name="color" val="#00f02b"/>
       <a name="offcolor" val="#ff0008"/>
     </comp>
     <comp lib="7" loc="(220,90)" name="7486"/>
-    <comp lib="0" loc="(30,50)" name="Power"/>
-    <comp lib="1" loc="(350,40)" name="XOR Gate">
+    <comp lib="1" loc="(530,150)" name="AND Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(450,210)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(100,50)" name="Splitter"/>
-    <comp lib="0" loc="(60,90)" name="Clock">
-      <a name="facing" val="north"/>
+      <a name="inputs" val="4"/>
     </comp>
     <comp lib="4" loc="(80,50)" name="Counter">
       <a name="width" val="2"/>
       <a name="max" val="0x3"/>
     </comp>
+    <comp lib="1" loc="(450,210)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="1" loc="(450,90)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
     </comp>
+    <comp lib="0" loc="(60,90)" name="Clock">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(30,50)" name="Power"/>
+    <comp lib="0" loc="(100,50)" name="Splitter"/>
     <comp lib="1" loc="(450,170)" name="XNOR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="2"/>
@@ -1241,12 +1340,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(470,140)" to="(490,140)"/>
     <wire from="(80,50)" to="(100,50)"/>
     <wire from="(220,120)" to="(250,120)"/>
-    <wire from="(170,30)" to="(170,100)"/>
     <wire from="(60,70)" to="(60,90)"/>
+    <wire from="(170,30)" to="(170,100)"/>
     <wire from="(520,130)" to="(540,130)"/>
     <wire from="(350,100)" to="(350,130)"/>
-    <wire from="(220,140)" to="(400,140)"/>
     <wire from="(470,90)" to="(470,120)"/>
+    <wire from="(220,140)" to="(400,140)"/>
     <wire from="(220,150)" to="(260,150)"/>
     <wire from="(450,130)" to="(490,130)"/>
     <wire from="(30,60)" to="(50,60)"/>
@@ -1271,8 +1370,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(220,130)" to="(350,130)"/>
     <wire from="(370,120)" to="(370,160)"/>
     <wire from="(150,30)" to="(170,30)"/>
-    <wire from="(160,110)" to="(190,110)"/>
     <wire from="(450,90)" to="(470,90)"/>
+    <wire from="(160,110)" to="(190,110)"/>
     <wire from="(470,120)" to="(490,120)"/>
     <wire from="(260,40)" to="(310,40)"/>
     <wire from="(120,20)" to="(160,20)"/>
@@ -1280,10 +1379,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(180,180)" to="(400,180)"/>
     <wire from="(150,30)" to="(150,120)"/>
     <wire from="(140,40)" to="(230,40)"/>
-    <comp lib="1" loc="(450,90)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="1" loc="(340,30)" name="OR Gate">
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
@@ -1295,7 +1390,24 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="color" val="#00f02b"/>
       <a name="offcolor" val="#ff0008"/>
     </comp>
+    <comp lib="1" loc="(450,90)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(450,170)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(30,50)" name="Power"/>
     <comp lib="7" loc="(220,90)" name="744075"/>
+    <comp lib="4" loc="(80,50)" name="Counter">
+      <a name="width" val="3"/>
+      <a name="max" val="0x7"/>
+    </comp>
+    <comp lib="1" loc="(450,130)" name="XNOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="0" loc="(100,50)" name="Splitter">
       <a name="fanout" val="3"/>
       <a name="incoming" val="3"/>
@@ -1304,37 +1416,24 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="size" val="30"/>
       <a name="inputs" val="3"/>
     </comp>
-    <comp lib="0" loc="(30,50)" name="Power"/>
-    <comp lib="1" loc="(450,130)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="4" loc="(80,50)" name="Counter">
-      <a name="width" val="3"/>
-      <a name="max" val="0x7"/>
-    </comp>
-    <comp lib="1" loc="(450,170)" name="XNOR Gate">
-      <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
-    </comp>
   </circuit>
   <circuit name="Test_744511">
     <a name="circuit" val="Test_744511"/>
     <a name="clabel" val=""/>
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
-    <wire from="(290,60)" to="(290,170)"/>
     <wire from="(390,190)" to="(390,270)"/>
+    <wire from="(290,60)" to="(290,170)"/>
     <wire from="(330,160)" to="(440,160)"/>
-    <wire from="(160,60)" to="(160,180)"/>
     <wire from="(430,140)" to="(430,190)"/>
-    <wire from="(220,60)" to="(220,130)"/>
+    <wire from="(160,60)" to="(160,180)"/>
     <wire from="(330,150)" to="(420,150)"/>
-    <wire from="(160,180)" to="(300,180)"/>
+    <wire from="(220,60)" to="(220,130)"/>
     <wire from="(330,180)" to="(400,180)"/>
+    <wire from="(160,180)" to="(300,180)"/>
     <wire from="(250,60)" to="(250,190)"/>
-    <wire from="(250,190)" to="(300,190)"/>
     <wire from="(380,280)" to="(420,280)"/>
+    <wire from="(250,190)" to="(300,190)"/>
     <wire from="(440,160)" to="(440,190)"/>
     <wire from="(130,160)" to="(130,180)"/>
     <wire from="(290,170)" to="(300,170)"/>
@@ -1346,10 +1445,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(400,260)" to="(440,260)"/>
     <wire from="(190,140)" to="(300,140)"/>
     <wire from="(400,180)" to="(400,260)"/>
-    <wire from="(330,170)" to="(450,170)"/>
     <wire from="(420,150)" to="(420,190)"/>
-    <wire from="(120,180)" to="(130,180)"/>
+    <wire from="(330,170)" to="(450,170)"/>
     <wire from="(130,160)" to="(300,160)"/>
+    <wire from="(120,180)" to="(130,180)"/>
     <wire from="(440,250)" to="(440,260)"/>
     <wire from="(330,140)" to="(430,140)"/>
     <wire from="(330,190)" to="(390,190)"/>
@@ -1357,36 +1456,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(120,150)" to="(300,150)"/>
     <wire from="(330,200)" to="(380,200)"/>
     <wire from="(220,130)" to="(300,130)"/>
-    <comp lib="0" loc="(250,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="D0"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="7" loc="(330,130)" name="744511"/>
-    <comp lib="0" loc="(220,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="D1"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(290,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="Load"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(190,60)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="D2"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="5" loc="(420,190)" name="7-Segment Display"/>
-    <comp lib="0" loc="(120,150)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="Lamp Test"/>
-    </comp>
     <comp lib="0" loc="(120,180)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Blank"/>
@@ -1397,5 +1466,35 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="D3"/>
       <a name="labelloc" val="north"/>
     </comp>
+    <comp lib="5" loc="(420,190)" name="7-Segment Display"/>
+    <comp lib="0" loc="(290,60)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Load"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(220,60)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="D1"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(190,60)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="D2"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(250,60)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="D0"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(120,150)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Lamp Test"/>
+    </comp>
+    <comp lib="7" loc="(330,130)" name="744511"/>
   </circuit>
 </project>
