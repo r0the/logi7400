@@ -217,14 +217,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="8" pin="60,60" width="8" x="46" y="76"/>
       <circ-port height="8" pin="60,100" width="8" x="46" y="96"/>
       <circ-port height="8" pin="60,140" width="8" x="46" y="106"/>
-      <circ-port height="8" pin="60,180" width="8" x="46" y="116"/>
-      <circ-port height="8" pin="60,220" width="8" x="46" y="126"/>
-      <circ-port height="8" pin="60,260" width="8" x="46" y="136"/>
-      <circ-port height="8" pin="60,300" width="8" x="46" y="146"/>
-      <circ-port height="10" pin="160,40" width="10" x="75" y="55"/>
-      <circ-port height="10" pin="160,120" width="10" x="75" y="65"/>
-      <circ-port height="10" pin="160,200" width="10" x="75" y="75"/>
-      <circ-port height="10" pin="160,280" width="10" x="75" y="85"/>
+      <circ-port height="8" pin="60,180" width="8" x="76" y="116"/>
+      <circ-port height="8" pin="60,220" width="8" x="76" y="106"/>
+      <circ-port height="8" pin="60,260" width="8" x="76" y="86"/>
+      <circ-port height="8" pin="60,300" width="8" x="76" y="76"/>
+      <circ-port height="10" pin="160,40" width="10" x="45" y="55"/>
+      <circ-port height="10" pin="160,120" width="10" x="45" y="85"/>
+      <circ-port height="10" pin="160,200" width="10" x="75" y="95"/>
+      <circ-port height="10" pin="160,280" width="10" x="75" y="65"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
     </appear>
     <wire from="(80,30)" to="(100,30)"/>
@@ -441,14 +441,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="8" pin="60,60" width="8" x="46" y="66"/>
       <circ-port height="8" pin="60,100" width="8" x="46" y="86"/>
       <circ-port height="8" pin="60,140" width="8" x="46" y="96"/>
-      <circ-port height="8" pin="60,180" width="8" x="46" y="116"/>
-      <circ-port height="8" pin="60,220" width="8" x="46" y="126"/>
-      <circ-port height="8" pin="60,260" width="8" x="46" y="136"/>
-      <circ-port height="8" pin="60,300" width="8" x="46" y="146"/>
-      <circ-port height="10" pin="160,40" width="10" x="75" y="55"/>
-      <circ-port height="10" pin="160,120" width="10" x="75" y="65"/>
-      <circ-port height="10" pin="160,200" width="10" x="75" y="75"/>
-      <circ-port height="10" pin="160,280" width="10" x="75" y="85"/>
+      <circ-port height="8" pin="60,180" width="8" x="76" y="106"/>
+      <circ-port height="8" pin="60,220" width="8" x="76" y="96"/>
+      <circ-port height="8" pin="60,260" width="8" x="76" y="76"/>
+      <circ-port height="8" pin="60,300" width="8" x="76" y="66"/>
+      <circ-port height="10" pin="160,40" width="10" x="45" y="75"/>
+      <circ-port height="10" pin="160,120" width="10" x="45" y="105"/>
+      <circ-port height="10" pin="160,200" width="10" x="75" y="85"/>
+      <circ-port height="10" pin="160,280" width="10" x="75" y="115"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
     </appear>
     <wire from="(80,30)" to="(100,30)"/>
@@ -675,16 +675,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <rect fill="none" height="72" stroke="#000000" stroke-width="2" width="30" x="50" y="55"/>
       <circ-port height="8" pin="60,20" width="8" x="46" y="56"/>
       <circ-port height="8" pin="60,60" width="8" x="46" y="66"/>
-      <circ-port height="8" pin="60,100" width="8" x="46" y="76"/>
-      <circ-port height="8" pin="60,140" width="8" x="46" y="86"/>
-      <circ-port height="8" pin="60,180" width="8" x="46" y="96"/>
-      <circ-port height="8" pin="60,220" width="8" x="46" y="116"/>
-      <circ-port height="8" pin="60,260" width="8" x="46" y="126"/>
-      <circ-port height="8" pin="60,300" width="8" x="46" y="136"/>
-      <circ-port height="8" pin="60,340" width="8" x="46" y="146"/>
-      <circ-port height="10" pin="160,60" width="10" x="75" y="55"/>
-      <circ-port height="10" pin="160,180" width="10" x="75" y="65"/>
-      <circ-port height="10" pin="160,300" width="10" x="75" y="75"/>
+      <circ-port height="8" pin="60,100" width="8" x="76" y="66"/>
+      <circ-port height="8" pin="60,140" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="60,180" width="8" x="46" y="86"/>
+      <circ-port height="8" pin="60,220" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="60,260" width="8" x="76" y="106"/>
+      <circ-port height="8" pin="60,300" width="8" x="76" y="96"/>
+      <circ-port height="8" pin="60,340" width="8" x="76" y="86"/>
+      <circ-port height="10" pin="160,60" width="10" x="75" y="75"/>
+      <circ-port height="10" pin="160,180" width="10" x="45" y="105"/>
+      <circ-port height="10" pin="160,300" width="10" x="75" y="115"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
     </appear>
     <wire from="(60,300)" to="(100,300)"/>
@@ -719,7 +719,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(130,300)" name="AND Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(60,340)" name="Pin">
       <a name="tristate" val="false"/>
@@ -753,7 +753,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(130,180)" name="AND Gate">
       <a name="size" val="30"/>
-      <a name="inputs" val="2"/>
+      <a name="inputs" val="3"/>
     </comp>
     <comp lib="0" loc="(60,60)" name="Pin">
       <a name="tristate" val="false"/>
@@ -887,14 +887,14 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <rect fill="none" height="71" stroke="#000000" stroke-width="2" width="29" x="51" y="55"/>
       <circ-port height="8" pin="60,20" width="8" x="46" y="56"/>
       <circ-port height="8" pin="60,60" width="8" x="46" y="66"/>
-      <circ-port height="8" pin="60,100" width="8" x="46" y="76"/>
-      <circ-port height="8" pin="60,140" width="8" x="46" y="86"/>
-      <circ-port height="8" pin="60,180" width="8" x="46" y="96"/>
-      <circ-port height="8" pin="60,220" width="8" x="46" y="116"/>
-      <circ-port height="8" pin="60,260" width="8" x="46" y="126"/>
-      <circ-port height="8" pin="60,300" width="8" x="46" y="136"/>
-      <circ-port height="10" pin="170,80" width="10" x="75" y="55"/>
-      <circ-port height="10" pin="170,240" width="10" x="75" y="65"/>
+      <circ-port height="8" pin="60,100" width="8" x="46" y="86"/>
+      <circ-port height="8" pin="60,140" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="60,180" width="8" x="76" y="106"/>
+      <circ-port height="8" pin="60,220" width="8" x="76" y="96"/>
+      <circ-port height="8" pin="60,260" width="8" x="76" y="76"/>
+      <circ-port height="8" pin="60,300" width="8" x="76" y="66"/>
+      <circ-port height="10" pin="170,80" width="10" x="45" y="105"/>
+      <circ-port height="10" pin="170,240" width="10" x="75" y="115"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
     </appear>
     <wire from="(140,240)" to="(170,240)"/>
@@ -986,16 +986,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <rect fill="none" height="71" stroke="#000000" stroke-width="2" width="30" x="50" y="55"/>
       <circ-port height="8" pin="60,20" width="8" x="46" y="56"/>
       <circ-port height="8" pin="60,60" width="8" x="46" y="66"/>
-      <circ-port height="8" pin="60,100" width="8" x="46" y="76"/>
-      <circ-port height="8" pin="60,140" width="8" x="46" y="86"/>
-      <circ-port height="8" pin="60,180" width="8" x="46" y="96"/>
-      <circ-port height="8" pin="60,220" width="8" x="46" y="116"/>
-      <circ-port height="8" pin="60,260" width="8" x="46" y="126"/>
-      <circ-port height="8" pin="60,300" width="8" x="46" y="136"/>
-      <circ-port height="8" pin="60,340" width="8" x="46" y="146"/>
-      <circ-port height="10" pin="160,60" width="10" x="75" y="55"/>
-      <circ-port height="10" pin="160,180" width="10" x="75" y="65"/>
-      <circ-port height="10" pin="160,300" width="10" x="75" y="75"/>
+      <circ-port height="8" pin="60,100" width="8" x="76" y="66"/>
+      <circ-port height="8" pin="60,140" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="60,180" width="8" x="46" y="86"/>
+      <circ-port height="8" pin="60,220" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="60,260" width="8" x="76" y="106"/>
+      <circ-port height="8" pin="60,300" width="8" x="76" y="96"/>
+      <circ-port height="8" pin="60,340" width="8" x="76" y="86"/>
+      <circ-port height="10" pin="160,60" width="10" x="75" y="75"/>
+      <circ-port height="10" pin="160,180" width="10" x="45" y="105"/>
+      <circ-port height="10" pin="160,300" width="10" x="75" y="115"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
     </appear>
     <wire from="(140,300)" to="(160,300)"/>
@@ -1101,13 +1101,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <circ-port height="8" pin="60,60" width="8" x="46" y="66"/>
       <circ-port height="8" pin="60,100" width="8" x="46" y="86"/>
       <circ-port height="8" pin="60,140" width="8" x="46" y="96"/>
-      <circ-port height="8" pin="60,180" width="8" x="46" y="116"/>
-      <circ-port height="8" pin="60,220" width="8" x="46" y="126"/>
-      <circ-port height="8" pin="60,260" width="8" x="46" y="136"/>
-      <circ-port height="8" pin="60,300" width="8" x="46" y="146"/>
-      <circ-port height="10" pin="160,40" width="10" x="75" y="55"/>
-      <circ-port height="10" pin="160,120" width="10" x="75" y="65"/>
-      <circ-port height="10" pin="160,200" width="10" x="75" y="75"/>
+      <circ-port height="8" pin="60,180" width="8" x="76" y="106"/>
+      <circ-port height="8" pin="60,220" width="8" x="76" y="96"/>
+      <circ-port height="8" pin="60,260" width="8" x="76" y="76"/>
+      <circ-port height="8" pin="60,300" width="8" x="76" y="66"/>
+      <circ-port height="10" pin="160,40" width="10" x="45" y="75"/>
+      <circ-port height="10" pin="160,120" width="10" x="45" y="105"/>
+      <circ-port height="10" pin="160,200" width="10" x="75" y="115"/>
       <circ-port height="10" pin="160,280" width="10" x="75" y="85"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
     </appear>
@@ -1219,18 +1219,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelfont" val="SansSerif plain 12"/>
     <appear>
       <path d="M61,56 Q65,66 69,56" fill="none" stroke="#808080" stroke-width="2"/>
-      <rect fill="none" height="80" stroke="#000000" stroke-width="2" width="30" x="50" y="55"/>
+      <rect fill="none" height="73" stroke="#000000" stroke-width="2" width="30" x="50" y="55"/>
       <circ-port height="8" pin="60,20" width="8" x="46" y="56"/>
       <circ-port height="8" pin="60,60" width="8" x="46" y="66"/>
       <circ-port height="8" pin="60,100" width="8" x="46" y="86"/>
       <circ-port height="8" pin="60,140" width="8" x="46" y="96"/>
-      <circ-port height="8" pin="60,180" width="8" x="46" y="116"/>
-      <circ-port height="8" pin="60,220" width="8" x="46" y="126"/>
-      <circ-port height="8" pin="60,260" width="8" x="46" y="136"/>
-      <circ-port height="8" pin="60,300" width="8" x="46" y="146"/>
-      <circ-port height="10" pin="160,40" width="10" x="75" y="55"/>
-      <circ-port height="10" pin="160,120" width="10" x="75" y="65"/>
-      <circ-port height="10" pin="160,200" width="10" x="75" y="75"/>
+      <circ-port height="8" pin="60,180" width="8" x="76" y="106"/>
+      <circ-port height="8" pin="60,220" width="8" x="76" y="96"/>
+      <circ-port height="8" pin="60,260" width="8" x="76" y="76"/>
+      <circ-port height="8" pin="60,300" width="8" x="76" y="66"/>
+      <circ-port height="10" pin="160,40" width="10" x="45" y="75"/>
+      <circ-port height="10" pin="160,120" width="10" x="45" y="105"/>
+      <circ-port height="10" pin="160,200" width="10" x="75" y="115"/>
       <circ-port height="10" pin="160,280" width="10" x="75" y="85"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
     </appear>
@@ -6497,18 +6497,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <appear>
       <path d="M61,56 Q65,66 69,56" fill="none" stroke="#808080" stroke-width="2"/>
       <rect fill="none" height="71" stroke="#000000" stroke-width="2" width="29" x="51" y="55"/>
-      <circ-port height="8" pin="60,20" width="8" x="46" y="56"/>
-      <circ-port height="8" pin="60,60" width="8" x="46" y="66"/>
-      <circ-port height="8" pin="60,100" width="8" x="46" y="76"/>
-      <circ-port height="8" pin="60,140" width="8" x="46" y="86"/>
-      <circ-port height="8" pin="60,180" width="8" x="46" y="96"/>
-      <circ-port height="8" pin="60,220" width="8" x="46" y="116"/>
-      <circ-port height="8" pin="60,260" width="8" x="46" y="126"/>
-      <circ-port height="8" pin="60,300" width="8" x="46" y="136"/>
-      <circ-port height="8" pin="60,340" width="8" x="46" y="146"/>
-      <circ-port height="10" pin="160,60" width="10" x="75" y="55"/>
-      <circ-port height="10" pin="160,180" width="10" x="75" y="65"/>
-      <circ-port height="10" pin="160,300" width="10" x="75" y="75"/>
+      <circ-port height="8" pin="60,20" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="60,60" width="8" x="46" y="86"/>
+      <circ-port height="8" pin="60,100" width="8" x="46" y="96"/>
+      <circ-port height="8" pin="60,140" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="60,180" width="8" x="46" y="66"/>
+      <circ-port height="8" pin="60,220" width="8" x="76" y="116"/>
+      <circ-port height="8" pin="60,260" width="8" x="76" y="86"/>
+      <circ-port height="8" pin="60,300" width="8" x="76" y="76"/>
+      <circ-port height="8" pin="60,340" width="8" x="76" y="66"/>
+      <circ-port height="10" pin="160,60" width="10" x="45" y="105"/>
+      <circ-port height="10" pin="160,180" width="10" x="75" y="105"/>
+      <circ-port height="10" pin="160,300" width="10" x="75" y="95"/>
       <circ-anchor facing="east" height="6" width="6" x="77" y="57"/>
     </appear>
     <wire from="(60,300)" to="(100,300)"/>
