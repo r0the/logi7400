@@ -15,7 +15,7 @@ To meet these goals, the following design guidelines are met:
 * Circuits are build from standard gates only (AND, OR, XOR, NAND, NOR, XNOR, inverter, and tri-state buffer).
 * The pin layout matches the DIP pinout of the corresponding chips.
 * Automated tests are provided.
-* Labels start with letter.
+* Labels must conform to [VHDL](https://en.wikipedia.org/wiki/VHDL), i.e. start with a letter and contain only letters, digits, or underscores.
 
 ## Progress
 
