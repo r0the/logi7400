@@ -1,4 +1,4 @@
-# Logisim74xx
+# Logi7400
 
 [Logisim](http://www.cburch.com/logisim/) 7400 series integrated circuits library
 
