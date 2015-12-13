@@ -10,10 +10,12 @@
 | [7408](7408.md)     | quad 2-input AND gate               | automated test passed |
 | [7410](7410.md)     | tripe 3-input NAND gate             | automated test passed |
 | [7411](7411.md)     | tripe 3-input AND gate              | automated test passed |
+| [7414](7414.md)     | hex Schmitt-trigger inverter        | untested              |
 | [7420](7420.md)     | dual 4-input NAND gate              | automated test passed |
 | [7421](7421.md)     | dual 4-input AND gate               | automated test passed |
 | [7425](7425.md)     | dual 4-input NOR gate               | automated test passed |
 | [7427](7427.md)     | tripe 3-input NOR gate              | automated test passed |
+| [7430](7430.md)     | 8-input NAND gate                   | untested |
 | [7432](7432.md)     | quad 2-input OR gate                | automated test passed |
 | [7442](7442.md)     | 4-line to 10-line decimal decoder   | untested |
 | [7451](7451.md)*    | AND-OR-invert gates                 | untested |
@@ -35,16 +37,9 @@
 | [74574](74574.md)*  | 8-bit D-latch                       | planned |
 | [74595](74595.md)*  | 8-bit shift register                | untested, not pure gate logic |
 | [74670](74670.md)*  | 4 by 4 register file                | untested, not pure gate logic |
+| [744049](744049.md) | hex inverter                        | untested |
 | [744075](744075.md) | triple 3-input OR gate              | automated test passed |
 | [744078](744078.md)*| 8-input OR/NOR gate                 | untested |
 | [744511](744511.md) | BCD to 7-segment decoder            | automated test passed |
 
 (*) Documentation missing
-
-* [Gates](gates.md)
-
-## Design Rules
-
-* Circuits are built from standard gates only
-* Logisim pinout represents the DIP pin configuration of the corresponding chip
-
