@@ -21,7 +21,6 @@
 | [7451](7451.md)*    | AND-OR-invert gates                 | untested |
 | [7474](7474.md)     | dual D latch                        | untested |
 | [7476](7476.md)     | dual J-K flip-flop                  | untested |
-| [7485](7485.md)*    | 4-bit magnitude comparator          | planned |
 | [7486](7486.md)     | quad 2-input XOR gate               | automated test passed |
 | [74109](74109.md)   | dual J-Not-K flip-flop              | untested |
 | [74147](74147.md)   | 10-line to 4-line priority encoder  | automated test passed |
@@ -34,12 +33,18 @@
 | [74283](74283.md)   | 4-bit binary full adder             | automated test passed |
 | [74373](74373.md)*  | 8-bit transparent latch             | untested |
 | [74377](74377.md)*  | 8-bit register with clock enable    | untested, not pure gate logic |
-| [74574](74574.md)*  | 8-bit D-latch                       | planned |
 | [74595](74595.md)*  | 8-bit shift register                | untested, not pure gate logic |
 | [74670](74670.md)*  | 4 by 4 register file                | untested, not pure gate logic |
 | [744049](744049.md) | hex inverter                        | untested |
 | [744075](744075.md) | triple 3-input OR gate              | automated test passed |
 | [744078](744078.md)*| 8-input OR/NOR gate                 | untested |
 | [744511](744511.md) | BCD to 7-segment decoder            | automated test passed |
+
+## Planned Chips
+
+| Chip                | Description                         | Status                |
+|:--------------------| ----------------------------------- | --------------------- |
+| [7485](7485.md)*    | 4-bit magnitude comparator          | planned |
+| [74574](74574.md)*  | 8-bit D-latch                       | planned |
 
 (*) Documentation missing
