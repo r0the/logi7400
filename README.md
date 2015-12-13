@@ -19,10 +19,8 @@ To meet these goals, the following design guidelines are met:
 
 ## Progress
 
-See [Wiki](https://github.com/r0the/74xx/wiki) for a list of supported chips. Currently, circuits from other libraries are 
+See [documentation](doc/README.md) for details. Currently, circuits from other libraries are 
 being integrated will later be redesigned to meet the guidelines.
-
-See (documentation)[doc/README.md] for details.
 
 ## Credit
 
