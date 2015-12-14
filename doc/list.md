@@ -31,7 +31,8 @@
 | [74244](74244.md)   | octal buffer                        | untested |
 | [74247](74247.md)   | BCD to 7-segment decoder            | untested |
 | [74283](74283.md)   | 4-bit binary full adder             | automated test passed |
-| [74373](74373.md)*  | 8-bit transparent latch             | untested |
+| [74373](74373.md)   | 8-bit transparent D latch           | untested |
+| [74374](74374.md)   | 8-bit D flip-flop                   | untested |
 | [74377](74377.md)*  | 8-bit register with clock enable    | untested, not pure gate logic |
 | [74595](74595.md)*  | 8-bit shift register                | untested, not pure gate logic |
 | [74670](74670.md)*  | 4 by 4 register file                | untested, not pure gate logic |
