@@ -24,10 +24,10 @@ The library should be compatible both with original [Logisim](http://www.cburch.
 
 ## Design Guidelines
 
-To meet these goals, the following design guidelines are met:
+To meet these goals, the following design [guidelines](guidelines.md) are met:
 
 * Circuits are build from a minimal set of built-in components.
-* The pin layout matches the DIP pinout of the corresponding chips.
+* The pin layout matches the DIP pinout of the corresponding ICs.
 * Automated tests are provided.
 * Labels must conform to [VHDL](https://en.wikipedia.org/wiki/VHDL), i.e. start with a letter and contain only letters, digits, or underscores.
 
