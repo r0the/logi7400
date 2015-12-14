@@ -18,7 +18,7 @@
 | [7430](7430.md)     | 8-input NAND gate                   | untested |
 | [7432](7432.md)     | quad 2-input OR gate                | automated test passed |
 | [7442](7442.md)     | 4-line to 10-line decimal decoder   | untested |
-| [7451](7451.md)*    | AND-OR-invert gates                 | untested |
+| [7451](7451.md)     | AND-OR-invert gates                 | untested |
 | [7474](7474.md)     | dual D latch                        | untested |
 | [7476](7476.md)     | dual J-K flip-flop                  | untested |
 | [7486](7486.md)     | quad 2-input XOR gate               | automated test passed |
