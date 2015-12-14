@@ -2,7 +2,7 @@
 
 ## NAND Gates
 
-| Chip                | Gates | Inputs per Gate |
+| Type                | Gates | Inputs per Gate |
 | ------------------- |:-----:|:---------------:|
 | [7400](7400.md)     | 4     | 2               |
 | [7410](7410.md)     | 3     | 3               |
@@ -11,7 +11,7 @@
 
 ## AND Gates
 
-| Chip                | Gates | Inputs per Gate |
+| Type                | Gates | Inputs per Gate |
 | ------------------- |:-----:|:---------------:|
 | [7408](7408.md)     | 4     | 2               |
 | [7411](7411.md)     | 3     | 3               | 
@@ -19,7 +19,7 @@
 
 ## NOR Gates
 
-| Chip                | Gates | Inputs per Gate |
+| Type                | Gates | Inputs per Gate |
 | ------------------- |:-----:|:---------------:|
 | [7402](7402.md)     | 4     | 2               |
 | [7427](7427.md)     | 3     | 3               | 
@@ -28,7 +28,7 @@
 
 ## OR Gates
 
-| Chip                | Gates | Inputs per Gate |
+| Type                | Gates | Inputs per Gate |
 | ------------------- |:-----:|:---------------:|
 | [7432](7432.md)     | 4     | 2               |
 | [744075](744075.md) | 3     | 3               |
@@ -36,13 +36,13 @@
 
 ## XOR Gates
 
-| Chip                | Gates | Inputs per Gate |
+| Type                | Gates | Inputs per Gate |
 | ------------------- |:-----:|:---------------:|
 | [7486](7486.md)     | 4     | 2               |
 
 ## Inverters
 
-| Chip                | Gates | Inputs per Gate | Type                 |
+| Type                | Gates | Inputs per Gate | Comments             |
 | ------------------- |:-----:|:---------------:| -------------------- |
 | [7404](7404.md)     | 6     | 1               |                      |
 | [7414](7414.md)     | 6     | 1               | Schmitt-trigger      |
@@ -50,6 +50,6 @@
 
 ## Gate Combinations
 
-| Chip                | Gates | Inputs per Gate | Type          |
+| Type                | Gates | Inputs per Gate | Type          |
 | ------------------- |:-----:|:---------------:| ------------- |
 | [7451](7451.md)     | 2     | 2/3             | AND-OR-invert |

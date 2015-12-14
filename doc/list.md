@@ -1,6 +1,4 @@
-74xx is a 7400 series integrated circuits library for [Logisim](http://www.cburch.com/logisim).
-
-## Supported Chips
+# Supported Chips
 
 | Chip                | Description                         | Status                |
 |:--------------------| ----------------------------------- | --------------------- |

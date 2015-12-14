@@ -5,5 +5,5 @@
 ## Lists by type
 
 - [Gates](gates.md)
-- [Encoders and Decoders](encoder_decoder.md)
+- [Encoders and Decoders](encoders_decoders.md)
 
