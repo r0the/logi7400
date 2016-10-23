@@ -8,16 +8,16 @@
 | [7408](7408.md)     | quad 2-input AND gate                  | automated test passed |
 | [7410](7410.md)     | tripe 3-input NAND gate                | automated test passed |
 | [7411](7411.md)     | tripe 3-input AND gate                 | automated test passed |
-| [7413](7413.md)     | dual 4-input Schmitt trigger NAND gate | untested              |
-| [7414](7414.md)     | hex Schmitt trigger inverter           | untested              |
+| [7413](7413.md)     | dual 4-input Schmitt trigger NAND gate | automated test passed |
+| [7414](7414.md)     | hex Schmitt trigger inverter           | automated test passed |
 | [7420](7420.md)     | dual 4-input NAND gate                 | automated test passed |
 | [7421](7421.md)     | dual 4-input AND gate                  | automated test passed |
 | [7425](7425.md)     | dual 4-input NOR gate                  | automated test passed |
 | [7427](7427.md)     | tripe 3-input NOR gate                 | automated test passed |
-| [7430](7430.md)     | 8-input NAND gate                      | untested |
+| [7430](7430.md)     | 8-input NAND gate                      | automated test passed |
 | [7432](7432.md)     | quad 2-input OR gate                   | automated test passed |
 | [7442](7442.md)     | 4-line to 10-line decimal decoder      | untested |
-| [7451](7451.md)     | AND-OR-invert gates                    | untested |
+| [7451](7451.md)     | AND-OR-invert gates                    | - |
 | [7474](7474.md)     | dual D latch                           | untested |
 | [7476](7476.md)     | dual J-K flip-flop                     | untested |
 | [7486](7486.md)     | quad 2-input XOR gate                  | automated test passed |
