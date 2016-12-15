@@ -12,6 +12,7 @@
 | Type                | Elements | Trigger         | Comments                   |
 | ------------------- |:--------:| --------------- | -------------------------- |
 | [7474](7474.md)     | 2        | rising edge     | asynchronous set and clear |
+| [74273](74273.md)   | 8        | rising edge     | asynchronous clear         |
 | [74373](74373.md)   | 8        | HIGH            | tri-state output           |
 | [74374](74374.md)   | 8        | rising edge     | tri-state output           |
 | [74573](74573.md)   | 8        | HIGH            | tri-state output           |
