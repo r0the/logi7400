@@ -14,3 +14,10 @@
 | [74247](74247.md)   | 4-bit BCD | 7-segment active HIGH |
 | [744511](744511.md) | 4-bit BCD | 7-segment active LOW  |
 
+## Multiplexers
+
+| Type                | Bits / Elements | Lines  |
+| ------------------- | --------------- | ------ |
+| [74151](74151.md)   | 1               | 8      |
+| [74153](74153.md)   | 2               | 4      |
+| [74157](74157.md)   | 4               | 2      |

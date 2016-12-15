@@ -2,7 +2,7 @@
 
 The following guidelines are derived from two goals:
 
-- The library should be portable to [logisim-evolution](https://github.com/reds-heig/logisim-evolution) 
+- The library should be portable to [logisim-evolution](https://github.com/reds-heig/logisim-evolution)
   with minimum effort.
 
 - The designeds circuits should be easily understandable and be usable in an educational context.
@@ -22,7 +22,7 @@ pins always on the east side facing west.
 
 ### Gates
 
-The following gates are allowed: *NOT*, *AND*, *OR*, *NAND* *NOR*, *XOR*, *XNOR*, and 
+The following gates are allowed: *NOT*, *AND*, *OR*, *NAND* *NOR*, *XOR*, *XNOR*, and
 *Controlled Buffer*. Gates may not have inverted inputs. Instead, a separate inverter is used.
 Bit size is always 1, gate size is always small.
 
@@ -51,18 +51,19 @@ Upper- and lowercase letters are considered identical.
 
 Label names identify the function of the corresponding pin.
 
-| Labels            | Function                             |
-|:----------------- |:------------------------------------ |
-| VCC               | supply voltage                       |
-| GND               | ground                               |
-| A, B, C, D, J, K  | data input                           |
-| Q, R              | data output                          |
-| CLK               | rising or falling edge trigger input |
-| SET               | set element to HIGH input            |
-| CLR               | set element to LOW input             |
-| OE                | output enable                        |
-| CIN               | carry input                          |
-| COUT              | carry output                         |
+| Labels                     | Function                             |
+|:-------------------------- |:------------------------------------ |
+| VCC                        | supply voltage                       |
+| GND                        | ground                               |
+| A, B, C, D, E, F, G, J, K  | data input                           |
+| Q, R                       | data output                          |
+| CLK                        | rising or falling edge trigger input |
+| SET                        | set element to HIGH input            |
+| CLR                        | set element to LOW input             |
+| OE                         | output enable                        |
+| LE                         | load enable                          |
+| CIN                        | carry input                          |
+| COUT                       | carry output                         |
 
 Corresponding inputs of multiple elements or multi-bit inputs and output are labelled with a letter followed by a digit:
 

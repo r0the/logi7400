@@ -20,26 +20,28 @@
 | [7451](7451.md)     | AND-OR-invert gates                    | automated test passed |
 | [7474](7474.md)     | dual D latch                           | untested              |
 | [7476](7476.md)     | dual J-K flip-flop                     | untested              |
-| [7485](7485.md)     | 4-bit magnitude comparator             |                       |
+| [7485](7485.md)     | 4-bit magnitude comparator             | PLANNED               |
 | [7486](7486.md)     | quad 2-input XOR gate                  | automated test passed |
 | [74109](74109.md)   | dual J-Not-K flip-flop                 | untested              |
 | [74147](74147.md)   | 10-line to 4-line priority encoder     | automated test passed |
-| [74157](74157.md)   | quad 2-line to 1-line data selector    | untested              |
+| [74151](74151.md)   | 8-line multiplexer                     | untested              |
+| [74153](74153.md)   | dual 4-line multiplexer                | untested              |
+| [74157](74157.md)   | quad 2-line multiplexer                | untested              |
 | [74161](74161.md)   | synchronous 4-bit binary counter       | untested              |
 | [74163](74163.md)   | synchronous 4-bit binary counter       | untested              |
-| [74165](74165.md)   | TODO                                   |                       |
-| [74181](74181.md)x  | 4-bit arithmetic logic unit            | untested              |
+| [74165](74165.md)   |                                        | PLANNED               |
+| [74181](74181.md)   | 4-bit arithmetic logic unit            | untested              |
 | [74244](74244.md)   | octal buffer                           | untested              |
 | [74247](74247.md)   | BCD to 7-segment decoder               | untested              |
 | [74283](74283.md)   | 4-bit binary full adder                | automated test passed |
 | [74373](74373.md)   | 8-bit transparent D latch              | untested              |
 | [74374](74374.md)   | 8-bit D flip-flop                      | untested              |
-| [74377](74377.md)x  | 8-bit register with clock enable       | untested              |
-| [74573](74573.md)   | 8-bit D latch                          |                       |
-| [74574](74574.md)   | 8-bit D flip-flop                      |                       |
+| [74377](74377.md)   | 8-bit register with clock enable       | untested              |
+| [74573](74573.md)   | 8-bit D latch                          | untested              |
+| [74574](74574.md)   | 8-bit D flip-flop                      | untested              |
 | [74595](74595.md)   | 8-bit shift register                   | untested              |
-| [74670](74670.md)x  | 4 by 4 register file                   | untested              |
+| [74670](74670.md)   | 4 by 4 register file                   | untested              |
 | [744049](744049.md) | hex inverter                           | untested              |
 | [744075](744075.md) | triple 3-input OR gate                 | automated test passed |
-| [744078](744078.md)x| 8-input OR/NOR gate                    | untested              |
+| [744078](744078.md) | 8-input OR/NOR gate                    | untested              |
 | [744511](744511.md) | BCD to 7-segment decoder               | automated test passed |
