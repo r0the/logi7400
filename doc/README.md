@@ -5,6 +5,6 @@
 ## Lists by type
 
 - [Gates](gates.md)
-- [Flip-Flops](flip_flops.md)
+- [Flip-Flops and Latches](flip_flops.md)
 - [Encoders and Decoders](encoders_decoders.md)
 

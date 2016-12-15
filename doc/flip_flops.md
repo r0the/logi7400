@@ -1,4 +1,4 @@
-# Flip-Flops
+# Flip-Flops and Latches
 
 ## J-K Flip-Flops
 
