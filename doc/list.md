@@ -20,7 +20,7 @@
 | [7451](7451.md)     | AND-OR-invert gates                    | automated test passed |
 | [7474](7474.md)     | dual D latch                           | untested              |
 | [7476](7476.md)     | dual J-K flip-flop                     | untested              |
-| [7485](7485.md)     | 4-bit magnitude comparator             | PLANNED               |
+| [7485](7485.md)     | 4-bit magnitude comparator             | untested              |
 | [7486](7486.md)     | quad 2-input XOR gate                  | automated test passed |
 | [74109](74109.md)   | dual J-Not-K flip-flop                 | untested              |
 | [74147](74147.md)   | 10-line to 4-line priority encoder     | automated test passed |
