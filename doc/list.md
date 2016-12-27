@@ -23,6 +23,7 @@
 | [7485](7485.md)     | 4-bit magnitude comparator             | untested              |
 | [7486](7486.md)     | quad 2-input XOR gate                  | automated test passed |
 | [74109](74109.md)   | dual J-Not-K flip-flop                 | untested              |
+| [74138](74138.md)   | 3-line to 8-line decoder               | untested              |
 | [74147](74147.md)   | 10-line to 4-line priority encoder     | automated test passed |
 | [74151](74151.md)   | 8-line multiplexer                     | untested              |
 | [74153](74153.md)   | dual 4-line multiplexer                | untested              |
