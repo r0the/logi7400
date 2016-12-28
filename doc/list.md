@@ -4,6 +4,7 @@
 |:--------------------| -------------------------------------- | --------------------- |
 | [7400](7400.md)     | quad 2-input NAND gate                 | automated test passed |
 | [7402](7402.md)     | quad 2-input NOR gate                  | automated test passed |
+| [7403](7403.md)     | quad 2-input NAND gate                 | untested              |
 | [7404](7404.md)     | hex inverter                           | automated test passed |
 | [7408](7408.md)     | quad 2-input AND gate                  | automated test passed |
 | [7410](7410.md)     | tripe 3-input NAND gate                | automated test passed |
