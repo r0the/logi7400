@@ -5,6 +5,7 @@
 | Type                | Elements | Trigger         | Comments                                     |
 | ------------------- |:--------:| --------------- | -------------------------------------------- |
 | [7476](7476.md)     | 2        | falling edge    | asynchronous set and clear                   |
+| [74107](74107.md)   | 2        | falling edge    | asynchronous clear                           |
 | [74109](74109.md)   | 2        | rising edge     | K input inverted, asynchronous set and clear |
 
 
