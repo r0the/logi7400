@@ -1,13 +1,14 @@
-# Flip-Flops and Latches
+# Flip-Flops and latches
 
-## J-K Flip-Flops
+## J-K flip-flops
 
 | Type                | Elements | Trigger         | Comments                                     |
 | ------------------- |:--------:| --------------- | -------------------------------------------- |
 | [7476](7476.md)     | 2        | falling edge    | asynchronous set and clear                   |
 | [74109](74109.md)   | 2        | rising edge     | K input inverted, asynchronous set and clear |
 
-## D Flip-Flops / Latches
+
+## D flip-flops and latches
 
 | Type                | Elements | Trigger         | Comments                   |
 | ------------------- |:--------:| --------------- | -------------------------- |

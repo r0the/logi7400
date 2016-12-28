@@ -51,25 +51,26 @@ Upper- and lowercase letters are considered identical.
 
 Label names identify the function of the corresponding pin.
 
-| Labels                     | Function                             |
-|:-------------------------- |:------------------------------------ |
-| VCC                        | supply voltage                       |
-| GND                        | ground                               |
-| A, B, C, D, E, F, G, J, K  | data input                           |
-| Q, R                       | data output                          |
-| CLK                        | rising or falling edge trigger input |
-| SET                        | set element to HIGH input            |
-| CLR                        | set element to LOW input             |
-| OE                         | output enable                        |
-| LE                         | load enable                          |
-| CIN                        | carry input                          |
-| COUT                       | carry output                         |
+| Labels                     | Function                                      |
+|:-------------------------- |:--------------------------------------------- |
+| VCC                        | supply voltage                                |
+| GND                        | ground                                        |
+| A, B, C, D, E, F, G, J, K  | data input                                    |
+| Q, R                       | data output from sequential logic circuits    |
+| Q, R, Y, Z                 | data output from combinatorial logic circuits |
+| CLK                        | rising or falling edge trigger input          |
+| SET                        | set element to HIGH input                     |
+| CLR                        | set element to LOW input                      |
+| OE                         | output enable                                 |
+| LE                         | load enable                                   |
+| CIN                        | carry input                                   |
+| COUT                       | carry output                                  |
 
 Corresponding inputs of multiple elements or multi-bit inputs and output are labelled with a letter followed by a digit:
 
-A1, A2, Q1, Q2
+A1, A2, Y1, Y2
 
 Outputs intended for a seven segment display are labelled as follows:
 
-Qa, Qb, Qc, Qd, Qe, Qf, Qg
+Ya, Yb, Yc, Yd, Ye, Yf, Yg
 

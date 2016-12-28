@@ -1,4 +1,4 @@
-# Encoders and Decoders
+# Encoders and decoders
 
 ## Encoders
 
@@ -6,7 +6,7 @@
 | ------------------- | ------------------ | ---------- |
 | [74147](74147.md)   | 9 lines active LOW | 4-bit BCD  |
 
-## Decoders
+## Binary decoders
 
 | Type                | Input     | Output                |
 | ------------------- | --------- | --------------------- |
