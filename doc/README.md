@@ -29,12 +29,13 @@
 | [7432](7432.md)     | quad 2-input OR gate                          | automated test passed |
 | [7442](7442.md)     | 4-line to 10-line decimal decoder, active low | untested              |
 | [7451](7451.md)     | AND-OR-invert gates                           | automated test passed |
-| [7473](7473.md)     | dual J-K flip-flop, falling edge trigger      | TODO                  |
-| [7474](7474.md)     | dual D latch                                  | untested              |
-| [7476](7476.md)     | dual J-K flip-flop, falling edge trigger      | untested              |
+| [7473](7473.md)     | dual J-K flip-flop, negative-edge trigger     | TODO                  |
+| [7474](7474.md)     | dual D latch                                  | TODO                  |
+| [7475](7475.md)     | quad D latch                                  | untested              |
+| [7476](7476.md)     | dual J-K flip-flop, negative-edge trigger     | untested              |
 | [7485](7485.md)     | 4-bit magnitude comparator                    | untested              |
 | [7486](7486.md)     | quad 2-input XOR gate                         | automated test passed |
-| [74107](74107.md)   | dual J-K flip-flop, falling edge trigger      | TODO                  |
+| [74107](74107.md)   | dual J-K flip-flop, negative-edge trigger     | TODO                  |
 | [74109](74109.md)   | dual J-Not-K flip-flop                        | untested              |
 | [74138](74138.md)   | 3-line to 8-line decoder, active low output   | untested              |
 | [74147](74147.md)   | 10-line to 4-line priority encoder            | automated test passed |
