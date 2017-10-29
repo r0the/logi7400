@@ -6031,6 +6031,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(710,190)" name="NAND Gate">
       <a name="size" val="30"/>
+      <a name="inputs" val="5"/>
     </comp>
     <comp lib="1" loc="(390,280)" name="NOR Gate">
       <a name="size" val="30"/>
@@ -6081,6 +6082,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     </comp>
     <comp lib="1" loc="(700,350)" name="AND Gate">
       <a name="size" val="30"/>
+      <a name="inputs" val="5"/>
     </comp>
     <comp lib="0" loc="(950,310)" name="Pin">
       <a name="facing" val="west"/>
