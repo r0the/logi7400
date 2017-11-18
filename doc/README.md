@@ -43,8 +43,8 @@
 | [74151](74151.md)   | 8-line multiplexer                               | OK              | pin layout missing |
 | [74153](74153.md)   | dual 4-line multiplexer                          | OK              | OK                 |
 | [74157](74157.md)   | quad 2-line multiplexer                          | OK              | OK                 |
-| [74161](74161.md)   | synchronous 4-bit binary counter                 | logical missing | pin layout missing |
-| [74163](74163.md)   | synchronous 4-bit binary counter                 | logical missing | pin layout missing |
+| [74161](74161.md)   | synchronous 4-bit binary counter                 | OK              | pin layout missing |
+| [74163](74163.md)   | synchronous 4-bit binary counter                 | OK              | pin layout missing |
 | [74165](74165.md)   |                                                  | missing         | missing            |
 | [74181](74181.md)   | 4-bit arithmetic logic unit                      | logical missing | missing            |
 | [74238](74238.md)   | 3-line to 8-line decoder                         | logical missing | OK                 |
