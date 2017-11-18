@@ -8,6 +8,13 @@ Currently includes the following chips:
 
 You're welcome to request missing chips by opening an issue.
 
+## Variants
+
+There are two variants of the library with different circuit appearances available:
+
+* In the classic **Logi7400dip** library, the circuit appearance reflects the physical pin layout of the DIP packaged chips.
+* The new **Logi7400ic** library provides a logical circuit appearance.
+
 ## Goal
 
 This library aims to be a comprehensive 7400 series library for Logisim for designing logical circuits and for educational purposes.
