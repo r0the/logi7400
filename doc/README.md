@@ -32,9 +32,10 @@
 | [7473](7473.md)     | dual J-K flip-flop, negative-edge trigger        | missing         | OK                 |
 | [7474](7474.md)     | dual D flip flop                                 | OK              | pin layout missing |
 | [7475](7475.md)     | quad D latch                                     | missing         | pin layout missing |
-| [7476](7476.md)     | dual J-K flip-flop, negative-edge trigger        | OK              | pin layout missing |
+| [7476](7476.md)     | dual J-K flip-flop, negative-edge trigger        | OK              | OK                 |
 | [7485](7485.md)     | 4-bit magnitude comparator                       | OK              | pin layout missing |
 | [7486](7486.md)     | quad 2-input XOR gate                            | OK              | OK                 |
+| [7493](7496.md)     |                                                  | missing         | missing            |
 | [74107](74107.md)   | dual J-K flip-flop, negative-edge trigger        | missing         | OK                 |
 | [74109](74109.md)   | dual J-Not-K flip-flop                           | OK              | OK                 |
 | [74138](74138.md)   | 3-line to 8-line decoder, active low output      | OK              | OK                 |
@@ -56,7 +57,6 @@
 | [74373](74373.md)   | 8-bit transparent D latch                        | logical missing | pin layout missing |
 | [74374](74374.md)   | 8-bit D flip-flop                                | logical missing | pin layout missing |
 | [74377](74377.md)   | 8-bit register with clock enable                 | logical missing | missing            |
-| [74384](74384.md)   | 8-bit sequential multiplier                      | missing         | missing            |
 | [74573](74573.md)   | 8-bit D latch                                    | logical missing | pin layout missing |
 | [74574](74574.md)   | 8-bit D flip-flop                                | logical missing | pin layout missing |
 | [74595](74595.md)   | 8-bit shift register                             | logical missing | pin layout missing |
