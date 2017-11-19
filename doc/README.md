@@ -29,7 +29,7 @@
 | [7432](7432.md)     | quad 2-input OR gate                             | OK              | OK                 |
 | [7442](7442.md)     | 4-line to 10-line decimal decoder, active low    | OK              | pin layout missing |
 | [7451](7451.md)     | AND-OR-invert gates                              | OK              | OK                 |
-| [7473](7473.md)     | dual J-K flip-flop, negative-edge trigger        | missing         | OK                 |
+| [7473](7473.md)     | dual J-K flip-flop, negative-edge trigger        | OK              | OK                 |
 | [7474](7474.md)     | dual D flip flop                                 | OK              | pin layout missing |
 | [7475](7475.md)     | quad D latch                                     | missing         | pin layout missing |
 | [7476](7476.md)     | dual J-K flip-flop, negative-edge trigger        | OK              | OK                 |
