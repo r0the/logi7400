@@ -10,7 +10,7 @@
 ## Supported Chips
 
 | Chip                | Description                                      | Status Logisim  | Status Docs        |
-|:--------------------| ------------------------------------------------ | --------------- | ------------------ |
+|:------------------- | ------------------------------------------------ | --------------- | ------------------ |
 | [7400](7400.md)     | quad 2-input NAND gate                           | OK              | OK                 |
 | [7402](7402.md)     | quad 2-input NOR gate                            | OK              | OK                 |
 | [7403](7403.md)     | quad 2-input NAND gate, open collector output    | OK              | OK                 |
@@ -27,7 +27,7 @@
 | [7427](7427.md)     | tripe 3-input NOR gate                           | OK              | OK                 |
 | [7430](7430.md)     | 8-input NAND gate                                | OK              | OK                 |
 | [7432](7432.md)     | quad 2-input OR gate                             | OK              | OK                 |
-| [7442](7442.md)     | 4-line to 10-line decimal decoder, active low    | OK              | pin layout missing |
+| [7442](7442.md)     | 4-line to 10-line decimal decoder, active low    | OK              | OK                 |
 | [7451](7451.md)     | AND-OR-invert gates                              | OK              | OK                 |
 | [7473](7473.md)     | dual J-K flip-flop, negative-edge trigger        | OK              | OK                 |
 | [7474](7474.md)     | dual D flip flop                                 | OK              | pin layout missing |
