@@ -13,12 +13,15 @@
 
 ## D flip-flops and latches
 
-| Type              | Elements | Trigger       | Comments                   |
-| ----------------- |:--------:| ------------- | -------------------------- |
-| [7474](7474.md)   |    2     | positive edge | asynchronous set and clear |
-| [7475](7475.md)   |    4     | high          | center supply              |
-| [74273](74273.md) |    8     | positive edge | asynchronous clear         |
-| [74373](74373.md) |    8     | high          | tri-state output           |
-| [74374](74374.md) |    8     | positive edge | tri-state output           |
-| [74573](74573.md) |    8     | high          | tri-state output           |
-| [74574](74574.md) |    8     | positive edge | tri-state output           |
+| Type              | Elements | Trigger       | Comments                             |
+| ----------------- |:--------:| ------------- | ------------------------------------ |
+| [7474](7474.md)   |    2     | positive edge | asynchronous set and clear           |
+| [7475](7475.md)   |    4     | high          | center supply                        |
+| [74173](74173.md) |    4     | positive edge | tri-state output, asynchronous clear |
+| [74174](74174.md) |    6     | positive edge | asynchronous clear                   |
+| [74175](74175.md) |    4     | positive edge | inverted outputs, asynchronous clear |
+| [74273](74273.md) |    8     | positive edge | asynchronous clear                   |
+| [74373](74373.md) |    8     | high          | tri-state output                     |
+| [74374](74374.md) |    8     | positive edge | tri-state output                     |
+| [74573](74573.md) |    8     | high          | tri-state output                     |
+| [74574](74574.md) |    8     | positive edge | tri-state output                     |
