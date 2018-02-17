@@ -1,4 +1,4 @@
-# Gates and inverters
+# Gates and Inverters
 
 ## NAND gates
 

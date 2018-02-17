@@ -1,4 +1,4 @@
-# Encoders and decoders
+# Encoders and Decoders
 
 ## Encoders
 

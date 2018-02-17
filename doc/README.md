@@ -2,9 +2,10 @@
 
 ## Lists by type
 
-- [Gates](gates.md)
+- [Gates and Inverters](gates.md)
 - [Flip-Flops and Latches](flip_flops.md)
 - [Encoders and Decoders](encoders_decoders.md)
+- [Arithmetic and Counters](arithmetic.md)
 
 
 ## Supported Chips
@@ -31,14 +32,14 @@
 | [7451](7451.md)     | AND-OR-invert gates                              | OK              | OK                 |
 | [7473](7473.md)     | dual J-K flip-flop, negative-edge trigger        | OK              | OK                 |
 | [7474](7474.md)     | dual D flip flop                                 | OK              | OK                 |
-| [7475](7475.md)     | quad D latch                                     | DIP missing     | pin layout missing |
+| [7475](7475.md)     | quad D latch                                     | DIP missing     | OK                 |
 | [7476](7476.md)     | dual J-K flip-flop, negative-edge trigger        | OK              | OK                 |
 | [7485](7485.md)     | 4-bit magnitude comparator                       | OK              | pin layout missing |
 | [7486](7486.md)     | quad 2-input XOR gate                            | OK              | OK                 |
 | [7493](7493.md)     | 4-bit binary ripple counter                      | missing         | pin layout missing |
-| [74107](74107.md)   | dual J-K flip-flop, negative-edge trigger        | missing         | OK                 |
+| [74107](74107.md)   | dual J-K flip-flop, negative-edge trigger        | DIP missing     | OK                 |
 | [74109](74109.md)   | dual J-Not-K flip-flop                           | OK              | OK                 |
-| [74112](74112.md)   |                                                  | missing         | missing            |
+| [74112](74112.md)   | dual J-K flip-flop, negative-edge trigger        | DIP missing     | OK                 |
 | [74138](74138.md)   | 3-line to 8-line decoder, active low output      | OK              | OK                 |
 | [74139](74139.md)   | dual 2-line to 4-line decoder, active low output | OK              | OK                 |
 | [74147](74147.md)   | 10-line to 4-line priority encoder               | OK              | pin layout missing |
