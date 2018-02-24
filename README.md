@@ -78,7 +78,7 @@ You're welcome to request missing chips by opening an issue.
 | [74283](doc/74283.md)   | 4-bit binary full adder                          |  16  | OK  | OK  | pin layout missing |
 | [74373](doc/74373.md)   | octal transparent D-type latch                   |  20  | --  | OK  | pin layout missing |
 | [74374](doc/74374.md)   | octal D-type flip-flop                           |  20  | OK  | OK  | pin layout missing |
-| [74377](doc/74377.md)   | 8-bit register with clock enable                 |      | --  | OK  | missing            |
+| [74377](doc/74377.md)   | 8-bit register with clock enable                 |  20  | OK  | OK  | missing            |
 | [74390](doc/74390.md)   |                                                  |      | --  | --  | missing            |
 | [74393](doc/74393.md)   |                                                  |      | --  | --  | missing            |
 | [74534](doc/74534.md)   |                                                  |      | --  | --  | missing            |
