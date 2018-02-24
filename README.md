@@ -17,7 +17,8 @@ The library should be compatible both with original [Logisim](http://www.cburch.
 
 ## Lists by type
 
-- [Gates and Inverters](doc/gates.md)
+- [Gates](doc/gates.md)
+- [Inverters](doc/inverters.md)
 - [Flip-Flops and Latches](doc/flip_flops.md)
 - [Encoders and Decoders](doc/encoders_decoders.md)
 - [Arithmetic and Counters](doc/arithmetic.md)
@@ -36,11 +37,9 @@ You're welcome to request missing chips by opening an issue.
 | [7408](doc/7408.md)     | quad 2-input AND gate                            |  14  | OK              | OK                 |
 | [7410](doc/7410.md)     | tripe 3-input NAND gate                          |  14  | OK              | OK                 |
 | [7411](doc/7411.md)     | tripe 3-input AND gate                           |  14  | OK              | OK                 |
-| [7413](doc/7413.md)     | dual 4-input Schmitt trigger NAND gate           |  14  | OK              | OK                 |
 | [7414](doc/7414.md)     | six hex Schmitt trigger inverters                |  14  | OK              | OK                 |
 | [7420](doc/7420.md)     | dual 4-input NAND gate                           |  14  | OK              | OK                 |
 | [7421](doc/7421.md)     | dual 4-input AND gate                            |  14  | OK              | OK                 |
-| [7425](doc/7425.md)     | dual 4-input NOR gate                            |  14  | OK              | OK                 |
 | [7427](doc/7427.md)     | tripe 3-input NOR gate                           |  14  | OK              | OK                 |
 | [7430](doc/7430.md)     | 8-input NAND gate                                |  14  | OK              | OK                 |
 | [7432](doc/7432.md)     | quad 2-input OR gate                             |  14  | OK              | OK                 |
@@ -48,32 +47,33 @@ You're welcome to request missing chips by opening an issue.
 | [7451](doc/7451.md)     | AND-OR-invert gates                              |  14  | OK              | OK                 |
 | [7473](doc/7473.md)     | dual J-K flip-flop, negative-edge trigger        |  14  | OK              | OK                 |
 | [7474](doc/7474.md)     | dual D flip-flop                                 |  14  | OK              | OK                 |
-| [7475](doc/7475.md)     | quad D latch                                     |  16  | DIP missing     | OK                 |
+| [7475](doc/7475.md)     | quad D latch                                     |  16  | DIP missing     | old diagram        |
 | [7476](doc/7476.md)     | dual J-K flip-flop, negative-edge trigger        |  16  | OK              | OK                 |
 | [7485](doc/7485.md)     | 4-bit magnitude comparator                       |  16  | OK              | pin layout missing |
 | [7486](doc/7486.md)     | quad 2-input XOR gate                            |  14  | OK              | OK                 |
 | [7493](doc/7493.md)     | 4-bit binary ripple counter                      |  14  | missing         | pin layout missing |
 | [74107](doc/74107.md)   | dual J-K flip-flop, negative-edge trigger        |  14  | DIP missing     | OK                 |
-| [74109](doc/74109.md)   | dual J-Not-K flip-flop                           |  14  | OK              | OK                 |
-| [74112](doc/74112.md)   | dual J-K flip-flop, negative-edge trigger        |  16  | DIP missing     | OK                 |
-| [74138](doc/74138.md)   | 3-line to 8-line decoder, active low output      |  16  | OK              | OK                 |
-| [74139](doc/74139.md)   | dual 2-line to 4-line decoder, active low output |  16  | OK              | OK                 |
+| [74109](doc/74109.md)   | dual J-Not-K flip-flop                           |  14  | OK              | old diagram        |
+| [74112](doc/74112.md)   | dual J-K flip-flop, negative-edge trigger        |  16  | DIP missing     | old diagram        |
+| [74132](doc/74132.md)   | quad 2-input NAN Schmitt trigger                 |  14  | missing         | OK                 |
+| [74138](doc/74138.md)   | 3-line to 8-line decoder, active low output      |  16  | OK              | old diagram        |
+| [74139](doc/74139.md)   | dual 2-line to 4-line decoder, active low output |  16  | OK              | old diagram        |
 | [74147](doc/74147.md)   | 10-line to 4-line priority encoder               |  16  | OK              | pin layout missing |
 | [74151](doc/74151.md)   | 8-line multiplexer                               |  16  | OK              | pin layout missing |
-| [74153](doc/74153.md)   | dual 4-line multiplexer                          |  16  | OK              | OK                 |
-| [74157](doc/74157.md)   | quad 2-line multiplexer                          |  16  | OK              | OK                 |
+| [74153](doc/74153.md)   | dual 4-line multiplexer                          |  16  | OK              | old diagram        |
+| [74157](doc/74157.md)   | quad 2-line multiplexer                          |  16  | OK              | old diagram        |
 | [74161](doc/74161.md)   | synchronous 4-bit binary counter                 |  16  | OK              | pin layout missing |
 | [74163](doc/74163.md)   | synchronous 4-bit binary counter                 |  16  | OK              | pin layout missing |
 | [74165](doc/74165.md)   | 8-bit parallel in shift register                 |  16  | missing         | missing            |
 | [74173](doc/74173.md)   | quad D flip-flop                                 |  16  | missing         | missing            |
 | [74174](doc/74174.md)   | hex D flip-flop                                  |  16  | missing         | missing            |
-| [74175](doc/74175.md)   | quad D flip-flop                                 |  16  | missing         | missing            |
+| [74175](doc/74175.md)   | quad D flip-flop                                 |  16  | DIP missing     | missing            |
 | [74181](doc/74181.md)   | 4-bit arithmetic logic unit                      |      | logical missing | missing            |
-| [74238](doc/74238.md)   | 3-line to 8-line decoder                         |  16  | logical missing | OK                 |
-| [74244](doc/74244.md)   | octal buffer                                     |  20  | logical missing | OK                 |
+| [74238](doc/74238.md)   | 3-line to 8-line decoder                         |  16  | logical missing | old diagram        |
+| [74244](doc/74244.md)   | octal buffer                                     |  20  | logical missing | old diagram        |
 | [74247](doc/74247.md)   | BCD to 7-segment decoder                         |  16  | logical missing | pin layout missing |
 | [74259](doc/74259.md)   | octal adressable D latch                         |      | missing         | missing            |
-| [74273](doc/74273.md)   | octal D flip-flop                                |  20  | OK              | OK                 |
+| [74273](doc/74273.md)   | octal D flip-flop                                |  20  | OK              | old diagram        |
 | [74283](doc/74283.md)   | 4-bit binary full adder                          |  16  | OK              | pin layout missing |
 | [74373](doc/74373.md)   | octal transparent D latch                        |  20  | logical missing | pin layout missing |
 | [74374](doc/74374.md)   | octal D flip-flop                                |  20  | OK              | pin layout missing |
@@ -85,10 +85,11 @@ You're welcome to request missing chips by opening an issue.
 | [74574](doc/74574.md)   | 8-bit D flip-flop                                |  20  | logical missing | pin layout missing |
 | [74595](doc/74595.md)   | 8-bit shift register                             |  16  | logical missing | pin layout missing |
 | [74670](doc/74670.md)   | 4 by 4 register file                             |      | logical missing | missing            |
+| [404002](doc/744002.md) | dual 4-input NOR gate                            |  14  | missing         | obsolete?          |
 | [744049](doc/744049.md) | hex inverter                                     |  16  | logical missing | pin layout missing |
-| [744075](doc/744075.md) | triple 3-input OR gate                           |  14  | logical missing | pin layout missing |
-| [744078](doc/744078.md) | 8-input OR/NOR gate                              |  14  | logical missing | pin layout missing |
+| [744075](doc/744075.md) | triple 3-input OR gate                           |  14  | logical missing | OK                 |
 | [744511](doc/744511.md) | BCD to 7-segment decoder                         |  16  | logical missing | pin layout missing |
+| [747266](doc/747266.md) | dual 2-input XNOR gate                           |  14  | missing         | OK                 |
 
 ## Design Guidelines
 
