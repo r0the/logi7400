@@ -51,7 +51,7 @@ You're welcome to request missing chips by opening an issue.
 | [7476](doc/7476.md)     | dual J-K flip-flop, negative-edge trigger        |  16  | OK  | OK  | OK                 |
 | [7485](doc/7485.md)     | 4-bit magnitude comparator                       |  16  | OK  | OK  | layout missing     |
 | [7486](doc/7486.md)     | quad 2-input XOR gate                            |  14  | OK  | OK  | OK                 |
-| [7493](doc/7493.md)     | 4-bit binary ripple counter                      |  14  | --  | --  | layout missing     |
+| [7493](doc/7493.md)     | 4-bit binary ripple counter                      |  14  | OK  | --  | layout missing     |
 | [74107](doc/74107.md)   | dual J-K flip-flop, negative-edge trigger        |  14  | OK  | --  | OK                 |
 | [74109](doc/74109.md)   | dual J-Not-K flip-flop                           |  14  | OK  | OK  | OK                 |
 | [74112](doc/74112.md)   | dual J-K flip-flop, negative-edge trigger        |  16  | OK  | --  | OK                 |
