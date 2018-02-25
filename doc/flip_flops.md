@@ -21,6 +21,7 @@
 | [74175](74175.md) |    4     | positive edge | inverted outputs, asynchronous clear |
 | [74273](74273.md) |    8     | positive edge | asynchronous clear                   |
 | [74374](74374.md) |    8     | positive edge | tri-state output                     |
+| [74377](74377.md) |    8     | positive edge | clock enable                         |
 | [74574](74574.md) |    8     | positive edge | tri-state output                     |
 
 ## D-type latches
