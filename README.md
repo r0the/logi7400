@@ -32,12 +32,12 @@ You're welcome to request missing chips by opening an issue.
 | [7400](doc/7400.md)     | quad 2-input NAND gate                        |  14  | OK  | OK  | OK                 |
 | [7402](doc/7402.md)     | quad 2-input NOR gate                         |  14  | OK  | OK  | OK                 |
 | [7403](doc/7403.md)     | quad 2-input NAND gate, open collector output |  14  | OK  | OK  | OK                 |
-| [7404](doc/7404.md)     | hex inverters                                 |  14  | OK  | OK  | OK                 |
-| [7405](doc/7405.md)     | hex inverters, open collector output          |  14  | OK  | OK  | OK                 |
+| [7404](doc/7404.md)     | hex inverter                                  |  14  | OK  | OK  | OK                 |
+| [7405](doc/7405.md)     | hex inverter, open collector output           |  14  | OK  | OK  | OK                 |
 | [7408](doc/7408.md)     | quad 2-input AND gate                         |  14  | OK  | OK  | OK                 |
 | [7410](doc/7410.md)     | tripe 3-input NAND gate                       |  14  | OK  | OK  | OK                 |
 | [7411](doc/7411.md)     | tripe 3-input AND gate                        |  14  | OK  | OK  | OK                 |
-| [7414](doc/7414.md)     | hex Schmitt trigger inverters                 |  14  | OK  | OK  | OK                 |
+| [7414](doc/7414.md)     | hex Schmitt trigger inverter                  |  14  | OK  | OK  | OK                 |
 | [7420](doc/7420.md)     | dual 4-input NAND gate                        |  14  | OK  | OK  | OK                 |
 | [7421](doc/7421.md)     | dual 4-input AND gate                         |  14  | OK  | OK  | OK                 |
 | [7427](doc/7427.md)     | tripe 3-input NOR gate                        |  14  | OK  | OK  | OK                 |
@@ -71,7 +71,7 @@ You're welcome to request missing chips by opening an issue.
 | [74175](doc/74175.md)   | quad D-type flip-flop                         |  16  | OK  | --  | missing            |
 | [74181](doc/74181.md)   | 4-bit arithmetic logic unit                   |      | --  | OK  | missing            |
 | [74237](doc/74237.md)   | 3-bit to 8-line decoder, latched input        |  16  | --  | --  | missing            |
-| [74238](doc/74238.md)   | 3-bit to 8-line decoder                      |  16  | OK  | OK  | old diagram        |
+| [74238](doc/74238.md)   | 3-bit to 8-line decoder                       |  16  | OK  | OK  | old diagram        |
 | [74244](doc/74244.md)   | octal buffer                                  |  20  | OK  | OK  | old diagram        |
 | [74247](doc/74247.md)   | BCD to 7-segment decoder                      |  16  | --  | OK  | pin layout missing |
 | [74259](doc/74259.md)   | octal adressable D-type latch                 |      | --  | --  | missing            |
@@ -88,7 +88,7 @@ You're welcome to request missing chips by opening an issue.
 | [74595](doc/74595.md)   | 8-bit shift register                          |  16  | --  | OK  | pin layout missing |
 | [74670](doc/74670.md)   | 4 by 4 register file                          |      | --  | OK  | missing            |
 | [404002](doc/744002.md) | dual 4-input NOR gate                         |  14  | --  | --  | OK                 |
-| [744049](doc/744049.md) | hex inverters                                 |  16  | --  | OK  | pin layout missing |
+| [744049](doc/744049.md) | hex inverter                                  |  16  | --  | OK  | pin layout missing |
 | [744075](doc/744075.md) | triple 3-input OR gate                        |  14  | --  | OK  | OK                 |
 | [744511](doc/744511.md) | BCD to 7-segment decoder                      |  16  | --  | OK  | pin layout missing |
 | [747266](doc/747266.md) | dual 2-input XNOR gate                        |  14  | --  | --  | OK                 |
